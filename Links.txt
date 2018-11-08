@@ -1,0 +1,2 @@
+https://github.com/dsbenghe/Novell.Directory.Ldap.NETStandard
+https://www.nuget.org/packages/Microsoft.Windows.Compatibility

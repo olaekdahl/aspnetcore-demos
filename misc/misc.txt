@@ -1,0 +1,31 @@
+services.AddAuthentication(Microsoft.AspNetCore.Server.IISIntegration.IISDefaults.AuthenticationScheme);
+
+
+//https://github.com/aspnet/ServerTests/blob/e155b814349f8ff9dd563480d784c38837b0b59f/test/ServerComparison.TestSites/StartupNtlmAuthentication.cs
+app.Use((context, next) =>
+            {
+                if (context.Request.Path.Equals("/Anonymous"))
+                {
+                    return context.Response.WriteAsync("Anonymous?" + !context.User.Identity.IsAuthenticated);
+                }
+
+                if (context.Request.Path.Equals("/Restricted"))
+                {
+                    if (context.User.Identity.IsAuthenticated)
+                    {
+                        //return context.Response.WriteAsync("Authenticated");
+                        return context.ChallengeAsync("Windows");
+                    }
+                    else
+                    {
+                        return context.ChallengeAsync("Windows");
+                    }
+                }
+
+                if (context.Request.Path.Equals("/Forbidden"))
+                {
+                    return context.ForbidAsync("Windows");
+                }
+
+                return context.Response.WriteAsync("Hello World");
+            });
