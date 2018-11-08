@@ -1,0 +1,14 @@
+C:\demos\WebDemo.Components\bin\Debug\netstandard2.0\WebDemo.Components.deps.json
+C:\demos\WebDemo.Components\bin\Debug\netstandard2.0\WebDemo.Components.dll
+C:\demos\WebDemo.Components\bin\Debug\netstandard2.0\WebDemo.DAL.dll
+C:\demos\WebDemo.Components\bin\Debug\netstandard2.0\WebDemo.Shared.dll
+C:\demos\WebDemo.Components\bin\Debug\netstandard2.0\WebDemo.DAL.pdb
+C:\demos\WebDemo.Components\bin\Debug\netstandard2.0\WebDemo.Shared.pdb
+C:\demos\WebDemo.Components\obj\Debug\netstandard2.0\WebDemo.Components.csprojAssemblyReference.cache
+C:\demos\WebDemo.Components\obj\Debug\netstandard2.0\WebDemo.Components.csproj.CoreCompileInputs.cache
+C:\demos\WebDemo.Components\obj\Debug\netstandard2.0\WebDemo.Components.AssemblyInfoInputs.cache
+C:\demos\WebDemo.Components\obj\Debug\netstandard2.0\WebDemo.Components.AssemblyInfo.cs
+C:\demos\WebDemo.Components\obj\Debug\netstandard2.0\WebDemo.Components.csproj.CopyComplete
+C:\demos\WebDemo.Components\bin\Debug\netstandard2.0\WebDemo.Components.pdb
+C:\demos\WebDemo.Components\obj\Debug\netstandard2.0\WebDemo.Components.dll
+C:\demos\WebDemo.Components\obj\Debug\netstandard2.0\WebDemo.Components.pdb

@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <link href="~/node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/node_modules/datatables.net-dt/css/jquery.dataTables.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+
+    <environment include="Development">
+        <div class="bg-warning">DEVELOPMENT</div>
+    </environment>
+    <div class="container-fluid">
+        @RenderBody()
+    </div>
+</body>
+</html>
+<environment include="Development">
+    <script asp-append-version="true" src="~/node_modules/jquery/dist/jquery.js"></script>
+    <script src="~/node_modules/popper.js/dist/popper.js"></script>
+    <script src="~/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="~/node_modules/datatables.net/js/jquery.dataTables.js"></script>
+</environment>
+@RenderSection("Scripts", false)

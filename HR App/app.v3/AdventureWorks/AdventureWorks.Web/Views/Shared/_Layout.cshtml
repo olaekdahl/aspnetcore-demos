@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <link href="~/node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/node_modules/datatables.net-dt/css/jquery.dataTables.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" asp-action="Index" asp-controller="EmployeeData">Adventure Works HR</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                @*<li class="nav-item active">
+                        <a class="nav-link" href="#">Add Employee <span class="sr-only">(current)</span></a>
+                    </li>*@
+                @*<li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>*@
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Actions
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a asp-action="Create" asp-controller="EmployeeData" class="dropdown-item">Add Employee</a>
+                        <a class="dropdown-item" href="#">Terminate Employee</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Payroll</a>
+                    </div>
+                </li>
+                @*<li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>*@
+            </ul>
+            <form class="form-inline my-2 my-lg-0"
+                  asp-controller="EmployeeData" asp-action="Search"
+                  data-ajax-begin="onBegin"
+                  data-ajax-failure="onFailed" 
+                  data-ajax-success="onSuccess"
+                  data-ajax="true" data-ajax-method="POST">
+                <input name="query" id="query" class="form-control mr-sm-2" type="search" placeholder="Search Employees" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <environment include="Development">
+        <div class="bg-warning">DEVELOPMENT</div>
+    </environment>
+    <div class="container-fluid">
+        <div id="results"></div>
+        @RenderBody()
+    </div>
+</body>
+</html>
+<environment include="Development">
+    <script asp-append-version="true" src="~/node_modules/jquery/dist/jquery.js"></script>
+    <script src="~/node_modules/popper.js/dist/popper.js"></script>
+    <script src="~/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="~/node_modules/datatables.net/js/jquery.dataTables.js"></script>
+    <script src="~/node_modules/jquery-ajax-unobtrusive/dist/jquery.unobtrusive-ajax.js"></script>
+    <script type="text/javascript">
+        var results = $("#results");
+        var onBegin = function () {
+            results.html("<img src=\"/images/ajax-loader.gif\" alt=\"Loading\" />");
+        };
+
+        var onSuccess = function (context) {
+            results.html(context);
+        };
+
+        var onFailed = function (context) {
+            alert(`Failed ${context}`);
+        };
+    </script>
+</environment>
+@RenderSection("Scripts", false)
+
+

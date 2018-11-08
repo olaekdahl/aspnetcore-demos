@@ -1,0 +1,12 @@
+C:\demos\WebDemo.DAL\bin\Debug\netstandard2.0\WebDemo.DAL.deps.json
+C:\demos\WebDemo.DAL\bin\Debug\netstandard2.0\WebDemo.DAL.dll
+C:\demos\WebDemo.DAL\bin\Debug\netstandard2.0\WebDemo.DAL.pdb
+C:\demos\WebDemo.DAL\bin\Debug\netstandard2.0\WebDemo.Shared.dll
+C:\demos\WebDemo.DAL\bin\Debug\netstandard2.0\WebDemo.Shared.pdb
+C:\demos\WebDemo.DAL\obj\Debug\netstandard2.0\WebDemo.DAL.csprojAssemblyReference.cache
+C:\demos\WebDemo.DAL\obj\Debug\netstandard2.0\WebDemo.DAL.csproj.CoreCompileInputs.cache
+C:\demos\WebDemo.DAL\obj\Debug\netstandard2.0\WebDemo.DAL.AssemblyInfoInputs.cache
+C:\demos\WebDemo.DAL\obj\Debug\netstandard2.0\WebDemo.DAL.AssemblyInfo.cs
+C:\demos\WebDemo.DAL\obj\Debug\netstandard2.0\WebDemo.DAL.csproj.CopyComplete
+C:\demos\WebDemo.DAL\obj\Debug\netstandard2.0\WebDemo.DAL.dll
+C:\demos\WebDemo.DAL\obj\Debug\netstandard2.0\WebDemo.DAL.pdb

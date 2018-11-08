@@ -1,0 +1,16 @@
+C:\Users\ISInc\Desktop\app.Start\AdventureWorks\AdventureWorks.Web\bin\Debug\netcoreapp2.0\AdventureWorks.Web.deps.json
+C:\Users\ISInc\Desktop\app.Start\AdventureWorks\AdventureWorks.Web\bin\Debug\netcoreapp2.0\AdventureWorks.Web.runtimeconfig.json
+C:\Users\ISInc\Desktop\app.Start\AdventureWorks\AdventureWorks.Web\bin\Debug\netcoreapp2.0\AdventureWorks.Web.runtimeconfig.dev.json
+C:\Users\ISInc\Desktop\app.Start\AdventureWorks\AdventureWorks.Web\bin\Debug\netcoreapp2.0\AdventureWorks.Web.dll
+C:\Users\ISInc\Desktop\app.Start\AdventureWorks\AdventureWorks.Web\bin\Debug\netcoreapp2.0\AdventureWorks.Web.pdb
+C:\Users\ISInc\Desktop\app.Start\AdventureWorks\AdventureWorks.Web\bin\Debug\netcoreapp2.0\AdventureWorks.Data.dll
+C:\Users\ISInc\Desktop\app.Start\AdventureWorks\AdventureWorks.Web\bin\Debug\netcoreapp2.0\AdventureWorks.Shared.dll
+C:\Users\ISInc\Desktop\app.Start\AdventureWorks\AdventureWorks.Web\bin\Debug\netcoreapp2.0\AdventureWorks.Data.pdb
+C:\Users\ISInc\Desktop\app.Start\AdventureWorks\AdventureWorks.Web\bin\Debug\netcoreapp2.0\AdventureWorks.Shared.pdb
+C:\Users\ISInc\Desktop\app.Start\AdventureWorks\AdventureWorks.Web\obj\Debug\netcoreapp2.0\AdventureWorks.Web.csprojAssemblyReference.cache
+C:\Users\ISInc\Desktop\app.Start\AdventureWorks\AdventureWorks.Web\obj\Debug\netcoreapp2.0\AdventureWorks.Web.csproj.CoreCompileInputs.cache
+C:\Users\ISInc\Desktop\app.Start\AdventureWorks\AdventureWorks.Web\obj\Debug\netcoreapp2.0\AdventureWorks.Web.AssemblyInfoInputs.cache
+C:\Users\ISInc\Desktop\app.Start\AdventureWorks\AdventureWorks.Web\obj\Debug\netcoreapp2.0\AdventureWorks.Web.AssemblyInfo.cs
+C:\Users\ISInc\Desktop\app.Start\AdventureWorks\AdventureWorks.Web\obj\Debug\netcoreapp2.0\AdventureWorks.Web.csproj.CopyComplete
+C:\Users\ISInc\Desktop\app.Start\AdventureWorks\AdventureWorks.Web\obj\Debug\netcoreapp2.0\AdventureWorks.Web.dll
+C:\Users\ISInc\Desktop\app.Start\AdventureWorks\AdventureWorks.Web\obj\Debug\netcoreapp2.0\AdventureWorks.Web.pdb

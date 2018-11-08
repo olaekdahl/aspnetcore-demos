@@ -1,0 +1,9 @@
+C:\demos\WebDemo.Shared\bin\Debug\netstandard2.0\WebDemo.Shared.deps.json
+C:\demos\WebDemo.Shared\bin\Debug\netstandard2.0\WebDemo.Shared.dll
+C:\demos\WebDemo.Shared\bin\Debug\netstandard2.0\WebDemo.Shared.pdb
+C:\demos\WebDemo.Shared\obj\Debug\netstandard2.0\WebDemo.Shared.csprojAssemblyReference.cache
+C:\demos\WebDemo.Shared\obj\Debug\netstandard2.0\WebDemo.Shared.csproj.CoreCompileInputs.cache
+C:\demos\WebDemo.Shared\obj\Debug\netstandard2.0\WebDemo.Shared.AssemblyInfoInputs.cache
+C:\demos\WebDemo.Shared\obj\Debug\netstandard2.0\WebDemo.Shared.AssemblyInfo.cs
+C:\demos\WebDemo.Shared\obj\Debug\netstandard2.0\WebDemo.Shared.dll
+C:\demos\WebDemo.Shared\obj\Debug\netstandard2.0\WebDemo.Shared.pdb
