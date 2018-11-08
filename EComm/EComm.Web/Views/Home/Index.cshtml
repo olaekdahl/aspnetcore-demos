@@ -1,0 +1,21 @@
+﻿
+<div id="results"></div>
+
+<vc:product-list search="" />
+
+@section Scripts{ 
+<script type="text/javascript">
+    var results = $("#results");
+    var onBegin = function () {
+        results.html("<img src=\"/images/ajax-loader.gif\" alt=\"Loading\" />");
+    };
+
+    var onSuccess = function (context) {
+        results.html(context);
+    };
+
+    var onFailed = function (context) {
+        alert(`Failed ${context}`);
+    };
+</script>
+}

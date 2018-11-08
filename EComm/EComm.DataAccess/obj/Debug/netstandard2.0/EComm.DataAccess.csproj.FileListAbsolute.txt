@@ -1,0 +1,12 @@
+C:\Labs\Lab13\Complete\EComm\EComm.DataAccess\bin\Debug\netstandard2.0\EComm.DataAccess.deps.json
+C:\Labs\Lab13\Complete\EComm\EComm.DataAccess\bin\Debug\netstandard2.0\EComm.DataAccess.dll
+C:\Labs\Lab13\Complete\EComm\EComm.DataAccess\bin\Debug\netstandard2.0\EComm.DataAccess.pdb
+C:\Labs\Lab13\Complete\EComm\EComm.DataAccess\bin\Debug\netstandard2.0\EComm.Model.dll
+C:\Labs\Lab13\Complete\EComm\EComm.DataAccess\bin\Debug\netstandard2.0\EComm.Model.pdb
+C:\Labs\Lab13\Complete\EComm\EComm.DataAccess\obj\Debug\netstandard2.0\EComm.DataAccess.csprojAssemblyReference.cache
+C:\Labs\Lab13\Complete\EComm\EComm.DataAccess\obj\Debug\netstandard2.0\EComm.DataAccess.csproj.CoreCompileInputs.cache
+C:\Labs\Lab13\Complete\EComm\EComm.DataAccess\obj\Debug\netstandard2.0\EComm.DataAccess.AssemblyInfoInputs.cache
+C:\Labs\Lab13\Complete\EComm\EComm.DataAccess\obj\Debug\netstandard2.0\EComm.DataAccess.AssemblyInfo.cs
+C:\Labs\Lab13\Complete\EComm\EComm.DataAccess\obj\Debug\netstandard2.0\EComm.DataAccess.csproj.CopyComplete
+C:\Labs\Lab13\Complete\EComm\EComm.DataAccess\obj\Debug\netstandard2.0\EComm.DataAccess.dll
+C:\Labs\Lab13\Complete\EComm\EComm.DataAccess\obj\Debug\netstandard2.0\EComm.DataAccess.pdb
