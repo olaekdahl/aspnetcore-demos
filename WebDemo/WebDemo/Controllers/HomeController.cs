@@ -14,6 +14,8 @@ using WebDemo.Services;
 using WebDemo.Shared.Models;
 using WebDemo.Shared.ViewModels;
 using WebDemo.Components;
+using System.Diagnostics;
+using Microsoft.Extensions.Logging;
 
 namespace WebDemo.Controllers
 {
@@ -21,28 +23,37 @@ namespace WebDemo.Controllers
     {
         private IProductRepository _repo;
         private ISession _session;
+        private ILogger _logger;
 
-
-        public HomeController(IProductRepository repo,
-            IHttpContextAccessor httpContextAccessor)
+        //public HomeController(IProductRepository repo,
+        //    IHttpContextAccessor httpContextAccessor)
+        //{
+        public HomeController(IProductRepository repo, ILogger<HomeController> logger)
         {
-            //public HomeController(IProductRepository repo)
-            //{
-            _session = httpContextAccessor.HttpContext.Session;
+            //_session = httpContextAccessor.HttpContext.Session;
+            _logger = logger;
             _repo = repo;
+        }
+
+        public IActionResult Error(string id)
+        {
+            ViewBag.id = id;
+            ViewBag.requestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier;
+            _logger.LogInformation("oops");
+            return View();
         }
 
         //[Route("/Products/List")]
         //[Route("/Products/All")]
         public IActionResult Index()
         {
-            var msg = TempData["outcome"];
+            //var msg = TempData["outcome"];
             //var products = _repo.AllProducts.ToList();
-            HttpContext.Response.Cookies.Append("uid", "123129");
-            var uid = HttpContext.Request.Cookies["uid"];
-            Product p = new Product { Id = 1, ProductName = "Blue Bike" };
-            HttpContext.Session.Set<Product>("p1", p);
-            var p_out = HttpContext.Session.Get<Product>("p1");
+            //HttpContext.Response.Cookies.Append("uid", "123129");
+            //var uid = HttpContext.Request.Cookies["uid"];
+            //Product p = new Product { Id = 1, ProductName = "Blue Bike" };
+            //HttpContext.Session.Set<Product>("p1", p);
+            //var p_out = HttpContext.Session.Get<Product>("p1");
             return View();
         }
 

@@ -122,7 +122,7 @@ using WebDemo.Helpers;
             WriteLiteral("\r\n    </tbody>\r\n</table>\r\n\r\n<footer>\r\n    ");
             EndContext();
             BeginContext(847, 26, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "10daaac10f9c4720bc0b1d2e909a97ab", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "6559bfb8e17140a0a81bb8c987a454de", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper>();
@@ -141,7 +141,7 @@ using WebDemo.Helpers;
             WriteLiteral("\r\n</footer>\r\n\r\n");
             EndContext();
             BeginContext(888, 150, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "37bf61ba915546b4afb1009bb853f518", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "dc09e10ec2fb4ca2ae2087d4d0f245ba", async() => {
                 BeginContext(944, 85, true);
                 WriteLiteral("\r\n    $(document).ready(function () {\r\n        $(\'#products\').DataTable();\r\n    });\r\n");
                 EndContext();

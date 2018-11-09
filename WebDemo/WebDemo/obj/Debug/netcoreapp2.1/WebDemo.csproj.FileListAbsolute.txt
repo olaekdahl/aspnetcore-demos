@@ -41,3 +41,6 @@ C:\demos\WebDemo\obj\Debug\netcoreapp2.1\Razor\Views\Home\FormDemo.g.cshtml.cs
 C:\demos\WebDemo\obj\Debug\netcoreapp2.1\Razor\Views\Home\Add.g.cshtml.cs
 C:\demos\WebDemo\obj\Debug\netcoreapp2.1\Razor\Views\Home\Customers.g.cshtml.cs
 C:\demos\WebDemo\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScripts.g.cshtml.cs
+C:\demos\WebDemo\obj\Debug\netcoreapp2.1\Razor\Views\Home\Error.g.cshtml.cs
+C:\demos\WebDemo\bin\Debug\netcoreapp2.1\NLog.config
+C:\demos\WebDemo\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs

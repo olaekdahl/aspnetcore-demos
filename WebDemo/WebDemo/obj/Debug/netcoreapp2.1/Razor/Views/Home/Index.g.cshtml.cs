@@ -47,7 +47,7 @@ using WebDemo.Components;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             BeginContext(0, 44, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3a181093ded140ff9156edd7a8e03bbe", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a904bbb58a034a548d0ac556defe872e", async() => {
                 BeginContext(28, 12, true);
                 WriteLiteral("Add Customer");
                 EndContext();
@@ -69,7 +69,7 @@ using WebDemo.Components;
             WriteLiteral(" | ");
             EndContext();
             BeginContext(47, 48, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "725f0d55c0b7455681e4dd9dc89a28f7", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "defbdda8e81f463d99ff4064a25fe6e0", async() => {
                 BeginContext(73, 18, true);
                 WriteLiteral("View All Customers");
                 EndContext();

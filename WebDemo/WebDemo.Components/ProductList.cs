@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 using WebDemo.DAL;
+using WebDemo.Shared.Models;
 
 namespace WebDemo.Components
 {
@@ -17,7 +18,7 @@ namespace WebDemo.Components
         }
         public Task<IViewComponentResult> InvokeAsync()
         {
-            var model = _repo.AllProducts;
+            IEnumerable<Product> model = _repo.AllProducts;
             return Task.FromResult<IViewComponentResult>(View(model));
         }
     }
