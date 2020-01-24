@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\EComm.Test\\EComm.Test.csproj": {}
+    "C:\\git\\aspnetcore-demos\\v3.1\\EComm.Test\\EComm.Test.csproj": {}
   },
   "projects": {
-    "C:\\dev\\Ecomm.Data\\Ecomm.Data.csproj": {
+    "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Data\\Ecomm.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\Ecomm.Data\\Ecomm.Data.csproj",
+        "projectUniqueName": "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Data\\Ecomm.Data.csproj",
         "projectName": "Ecomm.Data",
-        "projectPath": "C:\\dev\\Ecomm.Data\\Ecomm.Data.csproj",
+        "projectPath": "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Data\\Ecomm.Data.csproj",
         "packagesPath": "C:\\Users\\ISInc\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\Ecomm.Data\\obj\\",
+        "outputPath": "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ISInc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -66,14 +66,14 @@
         }
       }
     },
-    "C:\\dev\\EComm.Test\\EComm.Test.csproj": {
+    "C:\\git\\aspnetcore-demos\\v3.1\\EComm.Test\\EComm.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\EComm.Test\\EComm.Test.csproj",
+        "projectUniqueName": "C:\\git\\aspnetcore-demos\\v3.1\\EComm.Test\\EComm.Test.csproj",
         "projectName": "EComm.Test",
-        "projectPath": "C:\\dev\\EComm.Test\\EComm.Test.csproj",
+        "projectPath": "C:\\git\\aspnetcore-demos\\v3.1\\EComm.Test\\EComm.Test.csproj",
         "packagesPath": "C:\\Users\\ISInc\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\EComm.Test\\obj\\",
+        "outputPath": "C:\\git\\aspnetcore-demos\\v3.1\\EComm.Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ISInc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,11 +89,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\dev\\Ecomm.Data\\Ecomm.Data.csproj": {
-                "projectPath": "C:\\dev\\Ecomm.Data\\Ecomm.Data.csproj"
+              "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Data\\Ecomm.Data.csproj": {
+                "projectPath": "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Data\\Ecomm.Data.csproj"
               },
-              "C:\\dev\\Ecomm.Web\\Ecomm.Web\\Ecomm.Web\\Ecomm.Web.csproj": {
-                "projectPath": "C:\\dev\\Ecomm.Web\\Ecomm.Web\\Ecomm.Web\\Ecomm.Web.csproj"
+              "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Web\\Ecomm.Web\\Ecomm.Web\\Ecomm.Web.csproj": {
+                "projectPath": "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Web\\Ecomm.Web\\Ecomm.Web\\Ecomm.Web.csproj"
               }
             }
           }
@@ -146,14 +146,14 @@
         }
       }
     },
-    "C:\\dev\\Ecomm.Web\\Ecomm.Web\\EComm.Controllers\\EComm.Controllers.csproj": {
+    "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Web\\Ecomm.Web\\EComm.Controllers\\EComm.Controllers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\Ecomm.Web\\Ecomm.Web\\EComm.Controllers\\EComm.Controllers.csproj",
+        "projectUniqueName": "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Web\\Ecomm.Web\\EComm.Controllers\\EComm.Controllers.csproj",
         "projectName": "EComm.Controllers",
-        "projectPath": "C:\\dev\\Ecomm.Web\\Ecomm.Web\\EComm.Controllers\\EComm.Controllers.csproj",
+        "projectPath": "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Web\\Ecomm.Web\\EComm.Controllers\\EComm.Controllers.csproj",
         "packagesPath": "C:\\Users\\ISInc\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\Ecomm.Web\\Ecomm.Web\\EComm.Controllers\\obj\\",
+        "outputPath": "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Web\\Ecomm.Web\\EComm.Controllers\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ISInc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -201,14 +201,14 @@
         }
       }
     },
-    "C:\\dev\\Ecomm.Web\\Ecomm.Web\\Ecomm.Web\\Ecomm.Web.csproj": {
+    "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Web\\Ecomm.Web\\Ecomm.Web\\Ecomm.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\Ecomm.Web\\Ecomm.Web\\Ecomm.Web\\Ecomm.Web.csproj",
+        "projectUniqueName": "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Web\\Ecomm.Web\\Ecomm.Web\\Ecomm.Web.csproj",
         "projectName": "Ecomm.Web",
-        "projectPath": "C:\\dev\\Ecomm.Web\\Ecomm.Web\\Ecomm.Web\\Ecomm.Web.csproj",
+        "projectPath": "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Web\\Ecomm.Web\\Ecomm.Web\\Ecomm.Web.csproj",
         "packagesPath": "C:\\Users\\ISInc\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\Ecomm.Web\\Ecomm.Web\\Ecomm.Web\\obj\\",
+        "outputPath": "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Web\\Ecomm.Web\\Ecomm.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ISInc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -224,11 +224,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\dev\\Ecomm.Data\\Ecomm.Data.csproj": {
-                "projectPath": "C:\\dev\\Ecomm.Data\\Ecomm.Data.csproj"
+              "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Data\\Ecomm.Data.csproj": {
+                "projectPath": "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Data\\Ecomm.Data.csproj"
               },
-              "C:\\dev\\Ecomm.Web\\Ecomm.Web\\EComm.Controllers\\EComm.Controllers.csproj": {
-                "projectPath": "C:\\dev\\Ecomm.Web\\Ecomm.Web\\EComm.Controllers\\EComm.Controllers.csproj"
+              "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Web\\Ecomm.Web\\EComm.Controllers\\EComm.Controllers.csproj": {
+                "projectPath": "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Web\\Ecomm.Web\\EComm.Controllers\\EComm.Controllers.csproj"
               }
             }
           }

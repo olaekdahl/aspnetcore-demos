@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\Ecomm.Web\\Ecomm.Web\\EComm.Controllers\\EComm.Controllers.csproj",
+      "projectUniqueName": "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Web\\Ecomm.Web\\EComm.Controllers\\EComm.Controllers.csproj",
       "projectName": "EComm.Controllers",
-      "projectPath": "C:\\dev\\Ecomm.Web\\Ecomm.Web\\EComm.Controllers\\EComm.Controllers.csproj",
+      "projectPath": "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Web\\Ecomm.Web\\EComm.Controllers\\EComm.Controllers.csproj",
       "packagesPath": "C:\\Users\\ISInc\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\Ecomm.Web\\Ecomm.Web\\EComm.Controllers\\obj\\",
+      "outputPath": "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Web\\Ecomm.Web\\EComm.Controllers\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ISInc\\AppData\\Roaming\\NuGet\\NuGet.Config",

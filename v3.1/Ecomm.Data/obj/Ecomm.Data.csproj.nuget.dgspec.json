@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\Ecomm.Data\\Ecomm.Data.csproj": {}
+    "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Data\\Ecomm.Data.csproj": {}
   },
   "projects": {
-    "C:\\dev\\Ecomm.Data\\Ecomm.Data.csproj": {
+    "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Data\\Ecomm.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\Ecomm.Data\\Ecomm.Data.csproj",
+        "projectUniqueName": "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Data\\Ecomm.Data.csproj",
         "projectName": "Ecomm.Data",
-        "projectPath": "C:\\dev\\Ecomm.Data\\Ecomm.Data.csproj",
+        "projectPath": "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Data\\Ecomm.Data.csproj",
         "packagesPath": "C:\\Users\\ISInc\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\Ecomm.Data\\obj\\",
+        "outputPath": "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ISInc\\AppData\\Roaming\\NuGet\\NuGet.Config",

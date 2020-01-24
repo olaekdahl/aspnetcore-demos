@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\EComm.Blazor\\EComm.Blazor.csproj",
+      "projectUniqueName": "C:\\git\\aspnetcore-demos\\v3.1\\EComm.Blazor\\EComm.Blazor.csproj",
       "projectName": "EComm.Blazor",
-      "projectPath": "C:\\dev\\EComm.Blazor\\EComm.Blazor.csproj",
+      "projectPath": "C:\\git\\aspnetcore-demos\\v3.1\\EComm.Blazor\\EComm.Blazor.csproj",
       "packagesPath": "C:\\Users\\ISInc\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\EComm.Blazor\\obj\\",
+      "outputPath": "C:\\git\\aspnetcore-demos\\v3.1\\EComm.Blazor\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ISInc\\AppData\\Roaming\\NuGet\\NuGet.Config",
