@@ -1,0 +1,8 @@
+C:\dev\Ecomm.Data\bin\Debug\netcoreapp3.1\Ecomm.Data.deps.json
+C:\dev\Ecomm.Data\bin\Debug\netcoreapp3.1\Ecomm.Data.dll
+C:\dev\Ecomm.Data\obj\Debug\netcoreapp3.1\Ecomm.Data.csprojAssemblyReference.cache
+C:\dev\Ecomm.Data\obj\Debug\netcoreapp3.1\Ecomm.Data.AssemblyInfoInputs.cache
+C:\dev\Ecomm.Data\obj\Debug\netcoreapp3.1\Ecomm.Data.AssemblyInfo.cs
+C:\dev\Ecomm.Data\bin\Debug\netcoreapp3.1\Ecomm.Data.pdb
+C:\dev\Ecomm.Data\obj\Debug\netcoreapp3.1\Ecomm.Data.dll
+C:\dev\Ecomm.Data\obj\Debug\netcoreapp3.1\Ecomm.Data.pdb

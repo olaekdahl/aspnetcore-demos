@@ -1,0 +1,12 @@
+C:\dev\Ecomm.Web\Ecomm.Web\EComm.Controllers\bin\Release\netcoreapp3.1\Properties\launchSettings.json
+C:\dev\Ecomm.Web\Ecomm.Web\EComm.Controllers\bin\Release\netcoreapp3.1\EComm.Controllers.deps.json
+C:\dev\Ecomm.Web\Ecomm.Web\EComm.Controllers\bin\Release\netcoreapp3.1\EComm.Controllers.dll
+C:\dev\Ecomm.Web\Ecomm.Web\EComm.Controllers\bin\Release\netcoreapp3.1\EComm.Controllers.pdb
+C:\dev\Ecomm.Web\Ecomm.Web\EComm.Controllers\obj\Release\netcoreapp3.1\EComm.Controllers.csprojAssemblyReference.cache
+C:\dev\Ecomm.Web\Ecomm.Web\EComm.Controllers\obj\Release\netcoreapp3.1\staticwebassets\EComm.Controllers.StaticWebAssets.Manifest.cache
+C:\dev\Ecomm.Web\Ecomm.Web\EComm.Controllers\obj\Release\netcoreapp3.1\staticwebassets\EComm.Controllers.StaticWebAssets.xml
+C:\dev\Ecomm.Web\Ecomm.Web\EComm.Controllers\obj\Release\netcoreapp3.1\EComm.Controllers.AssemblyInfoInputs.cache
+C:\dev\Ecomm.Web\Ecomm.Web\EComm.Controllers\obj\Release\netcoreapp3.1\EComm.Controllers.AssemblyInfo.cs
+C:\dev\Ecomm.Web\Ecomm.Web\EComm.Controllers\obj\Release\netcoreapp3.1\EComm.Controllers.RazorTargetAssemblyInfo.cache
+C:\dev\Ecomm.Web\Ecomm.Web\EComm.Controllers\obj\Release\netcoreapp3.1\EComm.Controllers.dll
+C:\dev\Ecomm.Web\Ecomm.Web\EComm.Controllers\obj\Release\netcoreapp3.1\EComm.Controllers.pdb
