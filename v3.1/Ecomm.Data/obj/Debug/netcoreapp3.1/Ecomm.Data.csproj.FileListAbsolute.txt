@@ -6,3 +6,11 @@ C:\dev\Ecomm.Data\obj\Debug\netcoreapp3.1\Ecomm.Data.AssemblyInfo.cs
 C:\dev\Ecomm.Data\bin\Debug\netcoreapp3.1\Ecomm.Data.pdb
 C:\dev\Ecomm.Data\obj\Debug\netcoreapp3.1\Ecomm.Data.dll
 C:\dev\Ecomm.Data\obj\Debug\netcoreapp3.1\Ecomm.Data.pdb
+C:\git\aspnetcore-demos\v3.1\Ecomm.Data\bin\Debug\netcoreapp3.1\Ecomm.Data.deps.json
+C:\git\aspnetcore-demos\v3.1\Ecomm.Data\bin\Debug\netcoreapp3.1\Ecomm.Data.dll
+C:\git\aspnetcore-demos\v3.1\Ecomm.Data\bin\Debug\netcoreapp3.1\Ecomm.Data.pdb
+C:\git\aspnetcore-demos\v3.1\Ecomm.Data\obj\Debug\netcoreapp3.1\Ecomm.Data.csprojAssemblyReference.cache
+C:\git\aspnetcore-demos\v3.1\Ecomm.Data\obj\Debug\netcoreapp3.1\Ecomm.Data.AssemblyInfoInputs.cache
+C:\git\aspnetcore-demos\v3.1\Ecomm.Data\obj\Debug\netcoreapp3.1\Ecomm.Data.AssemblyInfo.cs
+C:\git\aspnetcore-demos\v3.1\Ecomm.Data\obj\Debug\netcoreapp3.1\Ecomm.Data.dll
+C:\git\aspnetcore-demos\v3.1\Ecomm.Data\obj\Debug\netcoreapp3.1\Ecomm.Data.pdb

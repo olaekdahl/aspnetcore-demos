@@ -37,6 +37,7 @@ namespace Ecomm.Web.Controllers
         // [TypeFilter(typeof(CustomExceptionFilter))]
         public IActionResult GetPerson(int id)
         {
+            
             //var result = _repo.GetPerson(id);
             //return Json(result);
             var result = _repo.GetPerson(id);

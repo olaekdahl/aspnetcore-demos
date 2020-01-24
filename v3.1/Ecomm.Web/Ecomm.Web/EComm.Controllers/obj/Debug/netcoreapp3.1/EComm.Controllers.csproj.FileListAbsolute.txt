@@ -10,3 +10,15 @@ C:\dev\Ecomm.Web\Ecomm.Web\EComm.Controllers\bin\Debug\netcoreapp3.1\EComm.Contr
 C:\dev\Ecomm.Web\Ecomm.Web\EComm.Controllers\obj\Debug\netcoreapp3.1\EComm.Controllers.RazorTargetAssemblyInfo.cache
 C:\dev\Ecomm.Web\Ecomm.Web\EComm.Controllers\obj\Debug\netcoreapp3.1\EComm.Controllers.dll
 C:\dev\Ecomm.Web\Ecomm.Web\EComm.Controllers\obj\Debug\netcoreapp3.1\EComm.Controllers.pdb
+C:\git\aspnetcore-demos\v3.1\Ecomm.Web\Ecomm.Web\EComm.Controllers\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\git\aspnetcore-demos\v3.1\Ecomm.Web\Ecomm.Web\EComm.Controllers\bin\Debug\netcoreapp3.1\EComm.Controllers.deps.json
+C:\git\aspnetcore-demos\v3.1\Ecomm.Web\Ecomm.Web\EComm.Controllers\bin\Debug\netcoreapp3.1\EComm.Controllers.dll
+C:\git\aspnetcore-demos\v3.1\Ecomm.Web\Ecomm.Web\EComm.Controllers\bin\Debug\netcoreapp3.1\EComm.Controllers.pdb
+C:\git\aspnetcore-demos\v3.1\Ecomm.Web\Ecomm.Web\EComm.Controllers\obj\Debug\netcoreapp3.1\EComm.Controllers.csprojAssemblyReference.cache
+C:\git\aspnetcore-demos\v3.1\Ecomm.Web\Ecomm.Web\EComm.Controllers\obj\Debug\netcoreapp3.1\staticwebassets\EComm.Controllers.StaticWebAssets.Manifest.cache
+C:\git\aspnetcore-demos\v3.1\Ecomm.Web\Ecomm.Web\EComm.Controllers\obj\Debug\netcoreapp3.1\staticwebassets\EComm.Controllers.StaticWebAssets.xml
+C:\git\aspnetcore-demos\v3.1\Ecomm.Web\Ecomm.Web\EComm.Controllers\obj\Debug\netcoreapp3.1\EComm.Controllers.AssemblyInfoInputs.cache
+C:\git\aspnetcore-demos\v3.1\Ecomm.Web\Ecomm.Web\EComm.Controllers\obj\Debug\netcoreapp3.1\EComm.Controllers.AssemblyInfo.cs
+C:\git\aspnetcore-demos\v3.1\Ecomm.Web\Ecomm.Web\EComm.Controllers\obj\Debug\netcoreapp3.1\EComm.Controllers.RazorTargetAssemblyInfo.cache
+C:\git\aspnetcore-demos\v3.1\Ecomm.Web\Ecomm.Web\EComm.Controllers\obj\Debug\netcoreapp3.1\EComm.Controllers.dll
+C:\git\aspnetcore-demos\v3.1\Ecomm.Web\Ecomm.Web\EComm.Controllers\obj\Debug\netcoreapp3.1\EComm.Controllers.pdb

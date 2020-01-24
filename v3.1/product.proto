@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option csharp_namespace = "EComm.Web.API.gRPC";
+
+package ecommpkg;
+//ecommpkg/ECommGrpc/GetProduct
+service ECommGrpc {
+	rpc GetProduct (ProductRequest) returns (ProductReply);
+}
+
+message ProductRequest {
+	int32 id = 1;
+}
+
+message ProductReply {
+	int32 id = 1;
+	string name = 2;
+	double price = 3;
+	string package = 4;
+	string supplier = 5;
+}
