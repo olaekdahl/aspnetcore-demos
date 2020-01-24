@@ -15,9 +15,12 @@ namespace Ecomm.Web.Controllers
         {
             _repo = repo;
         }
+ 
+
         public override async Task<ProductReply> GetProduct(ProductRequest request, ServerCallContext context)
         {
             var product = await _repo.FindProductAsync(request.Id);
+            
             var reply = new ProductReply
             {
                 Id = product.Id,

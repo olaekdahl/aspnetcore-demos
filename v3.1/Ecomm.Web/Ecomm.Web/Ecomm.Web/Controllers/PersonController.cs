@@ -31,6 +31,7 @@ namespace Ecomm.Web.Controllers
 
         [HttpPost]
         [ActionName("Edit")]
+        [ValidateAntiForgeryToken]
         public IActionResult EditPerson(Person p)
         {
             _repo.UpdatePerson(p);
