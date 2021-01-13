@@ -8,7 +8,7 @@
     "popper.js": "1.14.4",
     "datatables.net": "2.1.1",
     "datatables.net-dt": "2.1.1",
-    "jquery-validation": "1.18.0",
+    "jquery-validation": "1.19.3",
     "jquery-validation-unobtrusive": "3.2.11"
   }
 }
