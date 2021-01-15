@@ -1,9 +1,0 @@
-C:\Users\ISInc\Desktop\app.Start\AdventureWorks\AdventureWorks.Shared\bin\Debug\netcoreapp2.1\AdventureWorks.Shared.deps.json
-C:\Users\ISInc\Desktop\app.Start\AdventureWorks\AdventureWorks.Shared\bin\Debug\netcoreapp2.1\AdventureWorks.Shared.dll
-C:\Users\ISInc\Desktop\app.Start\AdventureWorks\AdventureWorks.Shared\bin\Debug\netcoreapp2.1\AdventureWorks.Shared.pdb
-C:\Users\ISInc\Desktop\app.Start\AdventureWorks\AdventureWorks.Shared\obj\Debug\netcoreapp2.1\AdventureWorks.Shared.csprojAssemblyReference.cache
-C:\Users\ISInc\Desktop\app.Start\AdventureWorks\AdventureWorks.Shared\obj\Debug\netcoreapp2.1\AdventureWorks.Shared.csproj.CoreCompileInputs.cache
-C:\Users\ISInc\Desktop\app.Start\AdventureWorks\AdventureWorks.Shared\obj\Debug\netcoreapp2.1\AdventureWorks.Shared.AssemblyInfoInputs.cache
-C:\Users\ISInc\Desktop\app.Start\AdventureWorks\AdventureWorks.Shared\obj\Debug\netcoreapp2.1\AdventureWorks.Shared.AssemblyInfo.cs
-C:\Users\ISInc\Desktop\app.Start\AdventureWorks\AdventureWorks.Shared\obj\Debug\netcoreapp2.1\AdventureWorks.Shared.dll
-C:\Users\ISInc\Desktop\app.Start\AdventureWorks\AdventureWorks.Shared\obj\Debug\netcoreapp2.1\AdventureWorks.Shared.pdb

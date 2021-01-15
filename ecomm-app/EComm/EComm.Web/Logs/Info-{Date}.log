@@ -1,0 +1,64 @@
+2021-01-14 15:05:22.054 -08:00 [INF] User profile is available. Using 'C:\Users\ISInc\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-14 15:05:23.244 -08:00 [INF] Now listening on: https://localhost:443
+2021-01-14 15:05:23.247 -08:00 [INF] Now listening on: http://localhost:80
+2021-01-14 15:05:23.253 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-14 15:05:23.256 -08:00 [INF] Hosting environment: Production
+2021-01-14 15:05:23.264 -08:00 [INF] Content root path: c:\ecomm-app\EComm\EComm.Web
+2021-01-14 15:05:24.798 -08:00 [INF] Request starting HTTP/2 GET https://localhost/  
+2021-01-14 15:05:25.150 -08:00 [INF] Executing endpoint 'EComm.Web.Controllers.HomeController.Index (EComm.Web)'
+2021-01-14 15:05:25.837 -08:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller EComm.Web.Controllers.HomeController (EComm.Web).
+2021-01-14 15:05:27.561 -08:00 [INF] Accessing expired session, Key:aff3aec2-966e-b405-a1bd-2473dfa37968
+2021-01-14 15:05:29.167 -08:00 [INF] Entity Framework Core 3.1.11 initialized 'ECommDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-14 15:05:34.939 -08:00 [INF] Executed DbCommand (192ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[IsDiscontinued], [p].[ProductName], [p].[UnitPrice], [p].[SupplierId]
+FROM [Products] AS [p]
+2021-01-14 15:05:35.456 -08:00 [INF] Executing ViewResult, running view Products.
+2021-01-14 15:05:36.423 -08:00 [INF] Executed DbCommand (143ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[FirstName], [t].[LastName], [t].[TotalAmount]
+FROM (
+    select top 1 c.Id, FirstName, LastName, sum(o.TotalAmount) as TotalAmount
+                                    from Customers as c 
+                                    join orders as o on o.CustomerId=c.Id
+                                    group by c.Id, FirstName, LastName
+                                    order by TotalAmount desc
+) AS [t]
+2021-01-14 15:05:37.277 -08:00 [INF] Executed ViewResult - view Products executed in 1863.9825ms.
+2021-01-14 15:05:38.213 -08:00 [INF] Executed action EComm.Web.Controllers.HomeController.Index (EComm.Web) in 12370.1483ms
+2021-01-14 15:05:38.226 -08:00 [INF] Executed endpoint 'EComm.Web.Controllers.HomeController.Index (EComm.Web)'
+2021-01-14 15:05:38.232 -08:00 [INF] Session started; Key:aff3aec2-966e-b405-a1bd-2473dfa37968, Id:9df46323-6fe4-dda9-6e3a-0045077e0f3f
+2021-01-14 15:05:38.267 -08:00 [INF] Request finished in 13471.7911ms 200 text/html; charset=utf-8
+2021-01-14 15:06:08.879 -08:00 [INF] Request starting HTTP/2 GET https://localhost/Home/Edit/1  
+2021-01-14 15:06:08.884 -08:00 [INF] Executing endpoint 'EComm.Web.Controllers.HomeController.Edit (EComm.Web)'
+2021-01-14 15:06:08.940 -08:00 [INF] Route matched with {action = "Edit", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Edit(Int32) on controller EComm.Web.Controllers.HomeController (EComm.Web).
+2021-01-14 15:06:09.012 -08:00 [INF] Entity Framework Core 3.1.11 initialized 'ECommDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-14 15:06:09.061 -08:00 [INF] Executed DbCommand (32ms) [Parameters=[@id='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+[dbo].[GetProduct] @id
+2021-01-14 15:06:09.085 -08:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[CompanyName]
+FROM [Suppliers] AS [s]
+2021-01-14 15:06:09.108 -08:00 [INF] Executing ViewResult, running view Edit.
+2021-01-14 15:06:09.205 -08:00 [INF] Executed ViewResult - view Edit executed in 107.7577ms.
+2021-01-14 15:06:09.228 -08:00 [INF] Executed action EComm.Web.Controllers.HomeController.Edit (EComm.Web) in 279.7337ms
+2021-01-14 15:06:09.287 -08:00 [INF] Request starting HTTP/2 GET https://localhost/lib/jquery-validation/dist/jquery.validate.min.js  
+2021-01-14 15:06:09.288 -08:00 [INF] Executed endpoint 'EComm.Web.Controllers.HomeController.Edit (EComm.Web)'
+2021-01-14 15:06:09.333 -08:00 [INF] Request finished in 454.6825ms 200 text/html; charset=utf-8
+2021-01-14 15:06:09.333 -08:00 [INF] Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.min.js'. Physical path: 'c:\ecomm-app\EComm\EComm.Web\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js'
+2021-01-14 15:06:09.338 -08:00 [INF] Request finished in 50.9065ms 200 application/javascript
+2021-01-14 15:06:09.335 -08:00 [INF] Request starting HTTP/2 GET https://localhost/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js  
+2021-01-14 15:06:09.356 -08:00 [INF] Sending file. Request path: '/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js'. Physical path: 'c:\ecomm-app\EComm\EComm.Web\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js'
+2021-01-14 15:06:09.519 -08:00 [INF] Request finished in 184.2403ms 200 application/javascript
+2021-01-14 15:06:12.360 -08:00 [INF] Request starting HTTP/2 GET https://localhost/Home/Edit/10000  
+2021-01-14 15:06:12.389 -08:00 [INF] Executing endpoint 'EComm.Web.Controllers.HomeController.Edit (EComm.Web)'
+2021-01-14 15:06:12.422 -08:00 [INF] Route matched with {action = "Edit", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Edit(Int32) on controller EComm.Web.Controllers.HomeController (EComm.Web).
+2021-01-14 15:06:12.479 -08:00 [INF] Entity Framework Core 3.1.11 initialized 'ECommDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-14 15:06:12.493 -08:00 [INF] Executed DbCommand (1ms) [Parameters=[@id='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+[dbo].[GetProduct] @id
+2021-01-14 15:06:14.929 -08:00 [INF] Executed action EComm.Web.Controllers.HomeController.Edit (EComm.Web) in 2491.8273ms
+2021-01-14 15:06:14.934 -08:00 [INF] Executed endpoint 'EComm.Web.Controllers.HomeController.Edit (EComm.Web)'
+2021-01-14 15:06:15.220 -08:00 [INF] Executing endpoint 'EComm.Web.Controllers.HomeController.Error (EComm.Web)'
+2021-01-14 15:06:15.255 -08:00 [INF] Route matched with {action = "Error", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error() on controller EComm.Web.Controllers.HomeController (EComm.Web).
+2021-01-14 15:06:15.292 -08:00 [INF] Executing ViewResult, running view Error.
+2021-01-14 15:06:15.308 -08:00 [INF] Executed ViewResult - view Error executed in 18.2709ms.
+2021-01-14 15:06:15.323 -08:00 [INF] Executed action EComm.Web.Controllers.HomeController.Error (EComm.Web) in 64.7531ms
+2021-01-14 15:06:15.325 -08:00 [INF] Executed endpoint 'EComm.Web.Controllers.HomeController.Error (EComm.Web)'
+2021-01-14 15:06:15.351 -08:00 [INF] Request finished in 2991.2939ms 500 text/html; charset=utf-8

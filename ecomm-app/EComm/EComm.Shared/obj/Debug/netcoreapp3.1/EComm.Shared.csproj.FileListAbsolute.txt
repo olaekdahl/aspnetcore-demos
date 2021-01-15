@@ -1,0 +1,8 @@
+c:\ecomm-app\EComm\EComm.Shared\bin\Debug\netcoreapp3.1\EComm.Shared.deps.json
+c:\ecomm-app\EComm\EComm.Shared\bin\Debug\netcoreapp3.1\EComm.Shared.dll
+c:\ecomm-app\EComm\EComm.Shared\bin\Debug\netcoreapp3.1\EComm.Shared.pdb
+c:\ecomm-app\EComm\EComm.Shared\obj\Debug\netcoreapp3.1\EComm.Shared.csprojAssemblyReference.cache
+c:\ecomm-app\EComm\EComm.Shared\obj\Debug\netcoreapp3.1\EComm.Shared.AssemblyInfoInputs.cache
+c:\ecomm-app\EComm\EComm.Shared\obj\Debug\netcoreapp3.1\EComm.Shared.AssemblyInfo.cs
+c:\ecomm-app\EComm\EComm.Shared\obj\Debug\netcoreapp3.1\EComm.Shared.dll
+c:\ecomm-app\EComm\EComm.Shared\obj\Debug\netcoreapp3.1\EComm.Shared.pdb

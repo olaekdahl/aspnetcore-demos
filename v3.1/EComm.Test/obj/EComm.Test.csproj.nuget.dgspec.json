@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\git\\aspnetcore-demos\\v3.1\\EComm.Test\\EComm.Test.csproj": {}
+    "D:\\dev\\core-class\\aspnetcore-demos\\v3.1\\EComm.Test\\EComm.Test.csproj": {}
   },
   "projects": {
-    "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Data\\Ecomm.Data.csproj": {
+    "D:\\dev\\core-class\\aspnetcore-demos\\v3.1\\Ecomm.Data\\Ecomm.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Data\\Ecomm.Data.csproj",
+        "projectUniqueName": "D:\\dev\\core-class\\aspnetcore-demos\\v3.1\\Ecomm.Data\\Ecomm.Data.csproj",
         "projectName": "Ecomm.Data",
-        "projectPath": "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Data\\Ecomm.Data.csproj",
-        "packagesPath": "C:\\Users\\ISInc\\.nuget\\packages\\",
-        "outputPath": "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Data\\obj\\",
+        "projectPath": "D:\\dev\\core-class\\aspnetcore-demos\\v3.1\\Ecomm.Data\\Ecomm.Data.csproj",
+        "packagesPath": "C:\\Users\\ola\\.nuget\\packages\\",
+        "outputPath": "D:\\dev\\core-class\\aspnetcore-demos\\v3.1\\Ecomm.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ISInc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ola\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +29,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +41,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Mvc.ViewFeatures": {
               "target": "Package",
@@ -57,26 +62,35 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\git\\aspnetcore-demos\\v3.1\\EComm.Test\\EComm.Test.csproj": {
+    "D:\\dev\\core-class\\aspnetcore-demos\\v3.1\\EComm.Test\\EComm.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\git\\aspnetcore-demos\\v3.1\\EComm.Test\\EComm.Test.csproj",
+        "projectUniqueName": "D:\\dev\\core-class\\aspnetcore-demos\\v3.1\\EComm.Test\\EComm.Test.csproj",
         "projectName": "EComm.Test",
-        "projectPath": "C:\\git\\aspnetcore-demos\\v3.1\\EComm.Test\\EComm.Test.csproj",
-        "packagesPath": "C:\\Users\\ISInc\\.nuget\\packages\\",
-        "outputPath": "C:\\git\\aspnetcore-demos\\v3.1\\EComm.Test\\obj\\",
+        "projectPath": "D:\\dev\\core-class\\aspnetcore-demos\\v3.1\\EComm.Test\\EComm.Test.csproj",
+        "packagesPath": "C:\\Users\\ola\\.nuget\\packages\\",
+        "outputPath": "D:\\dev\\core-class\\aspnetcore-demos\\v3.1\\EComm.Test\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ISInc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ola\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -88,12 +102,13 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Data\\Ecomm.Data.csproj": {
-                "projectPath": "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Data\\Ecomm.Data.csproj"
+              "D:\\dev\\core-class\\aspnetcore-demos\\v3.1\\Ecomm.Data\\Ecomm.Data.csproj": {
+                "projectPath": "D:\\dev\\core-class\\aspnetcore-demos\\v3.1\\Ecomm.Data\\Ecomm.Data.csproj"
               },
-              "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Web\\Ecomm.Web\\Ecomm.Web\\Ecomm.Web.csproj": {
-                "projectPath": "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Web\\Ecomm.Web\\Ecomm.Web\\Ecomm.Web.csproj"
+              "D:\\dev\\core-class\\aspnetcore-demos\\v3.1\\Ecomm.Web\\Ecomm.Web\\Ecomm.Web\\Ecomm.Web.csproj": {
+                "projectPath": "D:\\dev\\core-class\\aspnetcore-demos\\v3.1\\Ecomm.Web\\Ecomm.Web\\Ecomm.Web\\Ecomm.Web.csproj"
               }
             }
           }
@@ -106,6 +121,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -134,6 +150,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -142,21 +164,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Web\\Ecomm.Web\\EComm.Controllers\\EComm.Controllers.csproj": {
+    "D:\\dev\\core-class\\aspnetcore-demos\\v3.1\\Ecomm.Web\\Ecomm.Web\\EComm.Controllers\\EComm.Controllers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Web\\Ecomm.Web\\EComm.Controllers\\EComm.Controllers.csproj",
+        "projectUniqueName": "D:\\dev\\core-class\\aspnetcore-demos\\v3.1\\Ecomm.Web\\Ecomm.Web\\EComm.Controllers\\EComm.Controllers.csproj",
         "projectName": "EComm.Controllers",
-        "projectPath": "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Web\\Ecomm.Web\\EComm.Controllers\\EComm.Controllers.csproj",
-        "packagesPath": "C:\\Users\\ISInc\\.nuget\\packages\\",
-        "outputPath": "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Web\\Ecomm.Web\\EComm.Controllers\\obj\\",
+        "projectPath": "D:\\dev\\core-class\\aspnetcore-demos\\v3.1\\Ecomm.Web\\Ecomm.Web\\EComm.Controllers\\EComm.Controllers.csproj",
+        "packagesPath": "C:\\Users\\ola\\.nuget\\packages\\",
+        "outputPath": "D:\\dev\\core-class\\aspnetcore-demos\\v3.1\\Ecomm.Web\\Ecomm.Web\\EComm.Controllers\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ISInc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ola\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -168,6 +193,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -179,6 +205,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -189,6 +216,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -197,21 +230,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Web\\Ecomm.Web\\Ecomm.Web\\Ecomm.Web.csproj": {
+    "D:\\dev\\core-class\\aspnetcore-demos\\v3.1\\Ecomm.Web\\Ecomm.Web\\Ecomm.Web\\Ecomm.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Web\\Ecomm.Web\\Ecomm.Web\\Ecomm.Web.csproj",
+        "projectUniqueName": "D:\\dev\\core-class\\aspnetcore-demos\\v3.1\\Ecomm.Web\\Ecomm.Web\\Ecomm.Web\\Ecomm.Web.csproj",
         "projectName": "Ecomm.Web",
-        "projectPath": "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Web\\Ecomm.Web\\Ecomm.Web\\Ecomm.Web.csproj",
-        "packagesPath": "C:\\Users\\ISInc\\.nuget\\packages\\",
-        "outputPath": "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Web\\Ecomm.Web\\Ecomm.Web\\obj\\",
+        "projectPath": "D:\\dev\\core-class\\aspnetcore-demos\\v3.1\\Ecomm.Web\\Ecomm.Web\\Ecomm.Web\\Ecomm.Web.csproj",
+        "packagesPath": "C:\\Users\\ola\\.nuget\\packages\\",
+        "outputPath": "D:\\dev\\core-class\\aspnetcore-demos\\v3.1\\Ecomm.Web\\Ecomm.Web\\Ecomm.Web\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ISInc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ola\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -223,12 +259,13 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Data\\Ecomm.Data.csproj": {
-                "projectPath": "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Data\\Ecomm.Data.csproj"
+              "D:\\dev\\core-class\\aspnetcore-demos\\v3.1\\Ecomm.Data\\Ecomm.Data.csproj": {
+                "projectPath": "D:\\dev\\core-class\\aspnetcore-demos\\v3.1\\Ecomm.Data\\Ecomm.Data.csproj"
               },
-              "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Web\\Ecomm.Web\\EComm.Controllers\\EComm.Controllers.csproj": {
-                "projectPath": "C:\\git\\aspnetcore-demos\\v3.1\\Ecomm.Web\\Ecomm.Web\\EComm.Controllers\\EComm.Controllers.csproj"
+              "D:\\dev\\core-class\\aspnetcore-demos\\v3.1\\Ecomm.Web\\Ecomm.Web\\EComm.Controllers\\EComm.Controllers.csproj": {
+                "projectPath": "D:\\dev\\core-class\\aspnetcore-demos\\v3.1\\Ecomm.Web\\Ecomm.Web\\EComm.Controllers\\EComm.Controllers.csproj"
               }
             }
           }
@@ -241,6 +278,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Grpc.AspNetCore": {
               "target": "Package",
@@ -287,6 +325,16 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -295,7 +343,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

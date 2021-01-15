@@ -73,15 +73,16 @@ namespace Ecomm.Web
             });
 
             //app.UseStatusCodePages();
+            
 
-            //app.UseStatusCodePages(context =>
-            //{
-            //    context.HttpContext.Response.ContentType = "text/html";
+            app.UseStatusCodePages(context =>
+            {
+                context.HttpContext.Response.ContentType = "text/html";
 
-            //    return context.HttpContext.Response.WriteAsync(
-            //        $"(Custom) <b>Status code</b>: {context.HttpContext.Response.StatusCode}"
-            //        );
-            //});
+                return context.HttpContext.Response.WriteAsync(
+                    $"(Custom) <b>Status code</b>: {context.HttpContext.Response.StatusCode}"
+                    );
+            });
 
             //app.UseStatusCodePagesWithRedirects("/error?code={0}");
             //app.UseStatusCodePagesWithReExecute("/error", "?code={0}");

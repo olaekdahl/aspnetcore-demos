@@ -1,0 +1,12 @@
+C:\Users\ola\OneDrive\Desktop\ecomm-app\ecomm-app\EComm\EComm.Shared\bin\Debug\net5\EComm.Shared.deps.json
+C:\Users\ola\OneDrive\Desktop\ecomm-app\ecomm-app\EComm\EComm.Shared\bin\Debug\net5\EComm.Shared.dll
+C:\Users\ola\OneDrive\Desktop\ecomm-app\ecomm-app\EComm\EComm.Shared\bin\Debug\net5\ref\EComm.Shared.dll
+C:\Users\ola\OneDrive\Desktop\ecomm-app\ecomm-app\EComm\EComm.Shared\bin\Debug\net5\EComm.Shared.pdb
+C:\Users\ola\OneDrive\Desktop\ecomm-app\ecomm-app\EComm\EComm.Shared\obj\Debug\net5\EComm.Shared.csprojAssemblyReference.cache
+C:\Users\ola\OneDrive\Desktop\ecomm-app\ecomm-app\EComm\EComm.Shared\obj\Debug\net5\EComm.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ola\OneDrive\Desktop\ecomm-app\ecomm-app\EComm\EComm.Shared\obj\Debug\net5\EComm.Shared.AssemblyInfoInputs.cache
+C:\Users\ola\OneDrive\Desktop\ecomm-app\ecomm-app\EComm\EComm.Shared\obj\Debug\net5\EComm.Shared.AssemblyInfo.cs
+C:\Users\ola\OneDrive\Desktop\ecomm-app\ecomm-app\EComm\EComm.Shared\obj\Debug\net5\EComm.Shared.csproj.CoreCompileInputs.cache
+C:\Users\ola\OneDrive\Desktop\ecomm-app\ecomm-app\EComm\EComm.Shared\obj\Debug\net5\EComm.Shared.dll
+C:\Users\ola\OneDrive\Desktop\ecomm-app\ecomm-app\EComm\EComm.Shared\obj\Debug\net5\ref\EComm.Shared.dll
+C:\Users\ola\OneDrive\Desktop\ecomm-app\ecomm-app\EComm\EComm.Shared\obj\Debug\net5\EComm.Shared.pdb

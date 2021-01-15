@@ -538,19 +538,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ISInc\\.nuget\\packages\\": {}
+    "C:\\Users\\ola\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\git\\aspnetcore-demos\\v3.1\\EComm.Client\\EComm.Client.csproj",
+      "projectUniqueName": "D:\\dev\\core-class\\aspnetcore-demos\\v3.1\\EComm.Client\\EComm.Client.csproj",
       "projectName": "EComm.Client",
-      "projectPath": "C:\\git\\aspnetcore-demos\\v3.1\\EComm.Client\\EComm.Client.csproj",
-      "packagesPath": "C:\\Users\\ISInc\\.nuget\\packages\\",
-      "outputPath": "C:\\git\\aspnetcore-demos\\v3.1\\EComm.Client\\obj\\",
+      "projectPath": "D:\\dev\\core-class\\aspnetcore-demos\\v3.1\\EComm.Client\\EComm.Client.csproj",
+      "packagesPath": "C:\\Users\\ola\\.nuget\\packages\\",
+      "outputPath": "D:\\dev\\core-class\\aspnetcore-demos\\v3.1\\EComm.Client\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\ISInc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ola\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -562,6 +566,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -573,6 +578,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Google.Protobuf": {
             "target": "Package",
@@ -599,12 +605,22 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.10, 3.1.10]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

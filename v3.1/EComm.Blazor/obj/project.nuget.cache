@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "aYmR3qfYykA3FM3fbzFYiSmQncjDe8vMwcj4VVgSZWU4JAVQoMalkZz1aXR5kCrrcPHfVmbTtsSBIpyKFH79qQ==",
+  "success": true,
+  "projectFilePath": "D:\\dev\\core-class\\aspnetcore-demos\\v3.1\\EComm.Blazor\\EComm.Blazor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ola\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\ola\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.10\\microsoft.netcore.app.host.win-x64.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}

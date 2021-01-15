@@ -1,0 +1,2 @@
+obj\Release\netcoreapp3.1/Product.cs \
+obj\Release\netcoreapp3.1/ProductGrpc.cs: ../../../core-3.1-mvc/Labs/Lab21/product.proto

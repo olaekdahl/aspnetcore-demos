@@ -1,9 +1,0 @@
-C:\Labs\Lab13\Complete\EComm\EComm.Model\bin\Debug\netstandard2.0\EComm.Model.deps.json
-C:\Labs\Lab13\Complete\EComm\EComm.Model\bin\Debug\netstandard2.0\EComm.Model.dll
-C:\Labs\Lab13\Complete\EComm\EComm.Model\bin\Debug\netstandard2.0\EComm.Model.pdb
-C:\Labs\Lab13\Complete\EComm\EComm.Model\obj\Debug\netstandard2.0\EComm.Model.csprojAssemblyReference.cache
-C:\Labs\Lab13\Complete\EComm\EComm.Model\obj\Debug\netstandard2.0\EComm.Model.csproj.CoreCompileInputs.cache
-C:\Labs\Lab13\Complete\EComm\EComm.Model\obj\Debug\netstandard2.0\EComm.Model.AssemblyInfoInputs.cache
-C:\Labs\Lab13\Complete\EComm\EComm.Model\obj\Debug\netstandard2.0\EComm.Model.AssemblyInfo.cs
-C:\Labs\Lab13\Complete\EComm\EComm.Model\obj\Debug\netstandard2.0\EComm.Model.dll
-C:\Labs\Lab13\Complete\EComm\EComm.Model\obj\Debug\netstandard2.0\EComm.Model.pdb
