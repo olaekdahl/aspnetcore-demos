@@ -1,0 +1,43 @@
+﻿@model web_app.Shared.Models.ProductViewModel
+
+<h4>Product</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Product.Id" class="control-label"></label>
+                <input asp-for="Product.Id" class="form-control" />
+                <span asp-validation-for="Product.Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Supplier</label>
+                <select asp-items="Model.SupplierList" asp-for="Product.SupplierId">
+                </select>
+                <span asp-validation-for="Product.SupplierId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Product.ProductName" class="control-label"></label>
+                <input asp-for="Product.ProductName" class="form-control" />
+                <span asp-validation-for="Product.ProductName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Product.Price" class="control-label"></label>
+                <input asp-for="Product.Price" class="form-control" />
+                <span asp-validation-for="Product.Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@*@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}*@

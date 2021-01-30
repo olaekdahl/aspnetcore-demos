@@ -1,0 +1,909 @@
+2021-01-28 14:57:27.726 -08:00 [INF] User profile is available. Using 'C:\Users\ISInc\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-28 14:57:28.493 -08:00 [INF] Now listening on: https://localhost:443
+2021-01-28 14:57:28.497 -08:00 [INF] Now listening on: http://localhost:80
+2021-01-28 14:57:28.519 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-28 14:57:28.522 -08:00 [INF] Hosting environment: QA
+2021-01-28 14:57:28.525 -08:00 [INF] Content root path: C:\web-app
+2021-01-28 14:57:31.908 -08:00 [INF] Request starting HTTP/2 GET https://localhost/  
+2021-01-28 14:57:32.147 -08:00 [INF] Executing endpoint 'web_app.Controllers.HomeController.Index (web-app)'
+2021-01-28 14:57:32.565 -08:00 [INF] Route matched with {action = "Index", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32) on controller web_app.Controllers.HomeController (web-app).
+2021-01-28 14:57:35.483 -08:00 [INF] Entity Framework Core 3.1.11 initialized 'ECommDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-28 14:57:38.539 -08:00 [INF] Executed DbCommand (108ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[IsDiscontinued], [p].[Package], [p].[UnitPrice], [p].[ProductName], [p].[SupplierId]
+FROM [Products] AS [p]
+2021-01-28 14:57:38.852 -08:00 [INF] Executing ViewResult, running view Index.
+2021-01-28 14:57:38.916 -08:00 [INF] Executed action web_app.Controllers.HomeController.Index (web-app) in 6288.6883ms
+2021-01-28 14:57:38.983 -08:00 [INF] Executed endpoint 'web_app.Controllers.HomeController.Index (web-app)'
+2021-01-28 14:57:39.023 -08:00 [INF] Session started; Key:c627a5ec-1996-195f-6520-f85cf6322337, Id:c8df2319-dd9e-9088-e8f9-478c5210c835
+2021-01-28 14:57:39.612 -08:00 [INF] Executing endpoint 'web_app.Controllers.HomeController.Error (web-app)'
+2021-01-28 14:57:40.029 -08:00 [INF] Route matched with {action = "Error", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error() on controller web_app.Controllers.HomeController (web-app).
+2021-01-28 14:57:40.101 -08:00 [INF] Executing ViewResult, running view Error.
+2021-01-28 14:57:40.258 -08:00 [INF] Executed ViewResult - view Error executed in 161.2668ms.
+2021-01-28 14:57:40.835 -08:00 [INF] Executed action web_app.Controllers.HomeController.Error (web-app) in 785.3858ms
+2021-01-28 14:57:40.837 -08:00 [INF] Executed endpoint 'web_app.Controllers.HomeController.Error (web-app)'
+2021-01-28 14:57:40.868 -08:00 [INF] Request finished in 8963.6219ms 500 text/html; charset=utf-8
+2021-01-28 14:57:40.874 -08:00 [INF] Request starting HTTP/2 GET https://localhost/favicon.ico  
+2021-01-28 14:57:40.901 -08:00 [INF] Request finished in 27.2065ms 302 
+2021-01-28 14:57:40.908 -08:00 [INF] Request starting HTTP/2 GET https://localhost/ClientError?id=404  
+2021-01-28 14:57:40.909 -08:00 [INF] Executing endpoint 'web_app.Controllers.HomeController.ClientError (web-app)'
+2021-01-28 14:57:40.976 -08:00 [INF] Route matched with {action = "ClientError", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ClientError(Int32) on controller web_app.Controllers.HomeController (web-app).
+2021-01-28 14:57:41.009 -08:00 [INF] Executing ViewResult, running view ClientError.
+2021-01-28 14:57:41.022 -08:00 [INF] Executed ViewResult - view ClientError executed in 18.6393ms.
+2021-01-28 14:57:41.028 -08:00 [INF] Executed action web_app.Controllers.HomeController.ClientError (web-app) in 38.2528ms
+2021-01-28 14:57:41.030 -08:00 [INF] Executed endpoint 'web_app.Controllers.HomeController.ClientError (web-app)'
+2021-01-28 14:57:41.032 -08:00 [INF] Request finished in 124.2908ms 200 text/html; charset=utf-8
+2021-01-29 09:17:13.341 -08:00 [INF] User profile is available. Using 'C:\Users\ISInc\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-29 09:17:14.042 -08:00 [INF] Now listening on: https://localhost:443
+2021-01-29 09:17:14.044 -08:00 [INF] Now listening on: http://localhost:80
+2021-01-29 09:17:14.045 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-29 09:17:14.046 -08:00 [INF] Hosting environment: QA
+2021-01-29 09:17:14.048 -08:00 [INF] Content root path: C:\web-app
+2021-01-29 09:17:17.065 -08:00 [INF] Request starting HTTP/2 GET https://localhost/  
+2021-01-29 09:17:17.341 -08:00 [INF] Executing endpoint 'web_app.Controllers.HomeController.Index (web-app)'
+2021-01-29 09:17:17.695 -08:00 [INF] Route matched with {action = "Index", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32) on controller web_app.Controllers.HomeController (web-app).
+2021-01-29 09:17:19.975 -08:00 [INF] Entity Framework Core 3.1.11 initialized 'ECommDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-29 09:17:26.909 -08:00 [INF] Executed DbCommand (75ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[IsDiscontinued], [p].[Package], [p].[UnitPrice], [p].[ProductName], [p].[SupplierId]
+FROM [Products] AS [p]
+2021-01-29 09:17:27.547 -08:00 [INF] Executing ViewResult, running view Index.
+2021-01-29 09:17:28.051 -08:00 [INF] Executed action web_app.Controllers.HomeController.Index (web-app) in 10305.947ms
+2021-01-29 09:17:28.168 -08:00 [INF] Executed endpoint 'web_app.Controllers.HomeController.Index (web-app)'
+2021-01-29 09:17:28.178 -08:00 [INF] Session started; Key:829a1c10-db27-1e9c-1d4a-d54f1586ddc3, Id:a46eb830-296d-9524-6951-bfa46687c282
+2021-01-29 09:17:29.554 -08:00 [INF] Executing endpoint 'web_app.Controllers.HomeController.Error (web-app)'
+2021-01-29 09:17:29.584 -08:00 [INF] Route matched with {action = "Error", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error() on controller web_app.Controllers.HomeController (web-app).
+2021-01-29 09:17:29.745 -08:00 [INF] Executing ViewResult, running view Error.
+2021-01-29 09:17:29.981 -08:00 [INF] Executed ViewResult - view Error executed in 250.8559ms.
+2021-01-29 09:17:30.410 -08:00 [INF] Request starting HTTP/2 GET https://localhost/lib/jquery/dist/jquery.js  
+2021-01-29 09:17:30.417 -08:00 [INF] Executed action web_app.Controllers.HomeController.Error (web-app) in 797.0656ms
+2021-01-29 09:17:30.438 -08:00 [INF] The file /lib/jquery/dist/jquery.js was not modified
+2021-01-29 09:17:30.458 -08:00 [INF] Request finished in 47.8667ms 304 application/javascript
+2021-01-29 09:17:30.453 -08:00 [INF] Executed endpoint 'web_app.Controllers.HomeController.Error (web-app)'
+2021-01-29 09:17:30.518 -08:00 [INF] Request finished in 13461.6415ms 500 text/html; charset=utf-8
+2021-01-29 09:17:30.609 -08:00 [INF] Request starting HTTP/2 GET https://localhost/favicon.ico  
+2021-01-29 09:17:30.634 -08:00 [INF] Request finished in 24.8637ms 302 
+2021-01-29 09:17:30.649 -08:00 [INF] Request starting HTTP/2 GET https://localhost/ClientError?id=404  
+2021-01-29 09:17:30.655 -08:00 [INF] Executing endpoint 'web_app.Controllers.HomeController.ClientError (web-app)'
+2021-01-29 09:17:30.672 -08:00 [INF] Route matched with {action = "ClientError", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ClientError(Int32) on controller web_app.Controllers.HomeController (web-app).
+2021-01-29 09:17:30.758 -08:00 [INF] Executing ViewResult, running view ClientError.
+2021-01-29 09:17:30.791 -08:00 [INF] Executed ViewResult - view ClientError executed in 89.1284ms.
+2021-01-29 09:17:30.794 -08:00 [INF] Executed action web_app.Controllers.HomeController.ClientError (web-app) in 112.2112ms
+2021-01-29 09:17:30.797 -08:00 [INF] Executed endpoint 'web_app.Controllers.HomeController.ClientError (web-app)'
+2021-01-29 09:17:30.799 -08:00 [INF] Request finished in 150.2426ms 200 text/html; charset=utf-8
+2021-01-29 09:18:39.940 -08:00 [INF] User profile is available. Using 'C:\Users\ISInc\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-29 09:18:40.629 -08:00 [INF] Now listening on: https://localhost:443
+2021-01-29 09:18:40.634 -08:00 [INF] Now listening on: http://localhost:80
+2021-01-29 09:18:40.642 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-29 09:18:40.644 -08:00 [INF] Hosting environment: QA
+2021-01-29 09:18:40.645 -08:00 [INF] Content root path: C:\web-app
+2021-01-29 09:18:43.917 -08:00 [INF] Request starting HTTP/2 GET https://localhost/  
+2021-01-29 09:18:44.033 -08:00 [INF] Executing endpoint 'web_app.Controllers.HomeController.Index (web-app)'
+2021-01-29 09:18:44.249 -08:00 [INF] Route matched with {action = "Index", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32) on controller web_app.Controllers.HomeController (web-app).
+2021-01-29 09:18:47.222 -08:00 [INF] Entity Framework Core 3.1.11 initialized 'ECommDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-29 09:18:50.748 -08:00 [INF] Executed DbCommand (272ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[IsDiscontinued], [p].[Package], [p].[UnitPrice], [p].[ProductName], [p].[SupplierId]
+FROM [Products] AS [p]
+2021-01-29 09:18:51.269 -08:00 [INF] Executing ViewResult, running view Index.
+2021-01-29 09:18:52.357 -08:00 [INF] Executed DbCommand (221ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[FirstName], [t].[LastName], [t].[TotalAmount]
+FROM (
+    select top 1 c.Id, FirstName, LastName, sum(o.TotalAmount) as TotalAmount
+                                    from Customers as c 
+                                    join orders as o on o.CustomerId=c.Id
+                                    group by c.Id, FirstName, LastName
+                                    order by TotalAmount desc
+) AS [t]
+2021-01-29 09:18:52.737 -08:00 [INF] Executed ViewResult - view Index executed in 1592.3102ms.
+2021-01-29 09:18:53.007 -08:00 [INF] Executed action web_app.Controllers.HomeController.Index (web-app) in 8755.2263ms
+2021-01-29 09:18:53.237 -08:00 [INF] Executed endpoint 'web_app.Controllers.HomeController.Index (web-app)'
+2021-01-29 09:18:53.301 -08:00 [INF] Session started; Key:ed5bb754-d655-c92c-3556-63dba0b71f2e, Id:4a402c84-e0be-4081-2a86-a869315aa6b7
+2021-01-29 09:18:53.832 -08:00 [INF] Request starting HTTP/2 GET https://localhost/favicon.ico  
+2021-01-29 09:18:53.379 -08:00 [INF] Request finished in 9463.2186ms 200 text/html; charset=utf-8
+2021-01-29 09:18:53.937 -08:00 [INF] Request finished in 105.5399ms 302 
+2021-01-29 09:18:53.994 -08:00 [INF] Request starting HTTP/2 GET https://localhost/ClientError?id=404  
+2021-01-29 09:18:54.003 -08:00 [INF] Executing endpoint 'web_app.Controllers.HomeController.ClientError (web-app)'
+2021-01-29 09:18:54.026 -08:00 [INF] Route matched with {action = "ClientError", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ClientError(Int32) on controller web_app.Controllers.HomeController (web-app).
+2021-01-29 09:18:54.083 -08:00 [INF] Executing ViewResult, running view ClientError.
+2021-01-29 09:18:54.109 -08:00 [INF] Executed ViewResult - view ClientError executed in 28.1209ms.
+2021-01-29 09:18:54.119 -08:00 [INF] Executed action web_app.Controllers.HomeController.ClientError (web-app) in 83.4223ms
+2021-01-29 09:18:54.121 -08:00 [INF] Executed endpoint 'web_app.Controllers.HomeController.ClientError (web-app)'
+2021-01-29 09:18:54.128 -08:00 [INF] Request finished in 134.2549ms 200 text/html; charset=utf-8
+2021-01-29 09:20:46.190 -08:00 [INF] User profile is available. Using 'C:\Users\ISInc\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-29 09:20:46.902 -08:00 [INF] Now listening on: https://localhost:5001
+2021-01-29 09:20:46.915 -08:00 [INF] Now listening on: http://localhost:5000
+2021-01-29 09:20:46.916 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-29 09:20:46.917 -08:00 [INF] Hosting environment: Development
+2021-01-29 09:20:46.919 -08:00 [INF] Content root path: C:\web-app
+2021-01-29 09:20:49.838 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2021-01-29 09:20:49.970 -08:00 [INF] Executing endpoint 'web_app.Controllers.HomeController.Index (web-app)'
+2021-01-29 09:20:50.292 -08:00 [INF] Route matched with {action = "Index", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32) on controller web_app.Controllers.HomeController (web-app).
+2021-01-29 09:20:52.613 -08:00 [INF] Entity Framework Core 3.1.11 initialized 'ECommDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-29 09:20:54.797 -08:00 [INF] Executed DbCommand (140ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[IsDiscontinued], [p].[Package], [p].[UnitPrice], [p].[ProductName], [p].[SupplierId]
+FROM [Products] AS [p]
+2021-01-29 09:20:55.564 -08:00 [INF] Executing ViewResult, running view Index.
+2021-01-29 09:20:56.275 -08:00 [INF] Executed DbCommand (62ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[FirstName], [t].[LastName], [t].[TotalAmount]
+FROM (
+    select top 1 c.Id, FirstName, LastName, sum(o.TotalAmount) as TotalAmount
+                                    from Customers as c 
+                                    join orders as o on o.CustomerId=c.Id
+                                    group by c.Id, FirstName, LastName
+                                    order by TotalAmount desc
+) AS [t]
+2021-01-29 09:20:56.554 -08:00 [INF] Executed ViewResult - view Index executed in 1076.4587ms.
+2021-01-29 09:20:56.815 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.js  
+2021-01-29 09:20:56.848 -08:00 [INF] Executed action web_app.Controllers.HomeController.Index (web-app) in 6528.7589ms
+2021-01-29 09:20:56.990 -08:00 [INF] The file /lib/jquery/dist/jquery.js was not modified
+2021-01-29 09:20:57.035 -08:00 [INF] Request finished in 219.002ms 304 application/javascript
+2021-01-29 09:20:57.004 -08:00 [INF] Executed endpoint 'web_app.Controllers.HomeController.Index (web-app)'
+2021-01-29 09:20:57.282 -08:00 [INF] Session started; Key:1da9d35b-6003-08d2-7ac2-0e56e7006499, Id:1b0d94ef-afc7-d2d9-1741-fa3cd8147d66
+2021-01-29 09:20:57.404 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+2021-01-29 09:20:57.407 -08:00 [INF] Request finished in 7590.6634ms 200 text/html; charset=utf-8
+2021-01-29 09:20:57.413 -08:00 [INF] Request finished in 9.0585ms 302 
+2021-01-29 09:20:57.423 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ClientError?id=404  
+2021-01-29 09:20:57.427 -08:00 [INF] Executing endpoint 'web_app.Controllers.HomeController.ClientError (web-app)'
+2021-01-29 09:20:57.431 -08:00 [INF] Route matched with {action = "ClientError", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ClientError(Int32) on controller web_app.Controllers.HomeController (web-app).
+2021-01-29 09:20:57.467 -08:00 [INF] Executing ViewResult, running view ClientError.
+2021-01-29 09:20:57.514 -08:00 [INF] Executed ViewResult - view ClientError executed in 53.5134ms.
+2021-01-29 09:20:57.517 -08:00 [INF] Executed action web_app.Controllers.HomeController.ClientError (web-app) in 68.4615ms
+2021-01-29 09:20:57.521 -08:00 [INF] Executed endpoint 'web_app.Controllers.HomeController.ClientError (web-app)'
+2021-01-29 09:20:57.524 -08:00 [INF] Request finished in 100.3358ms 200 text/html; charset=utf-8
+2021-01-29 09:22:33.585 -08:00 [INF] User profile is available. Using 'C:\Users\ISInc\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-29 09:22:37.827 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-29 09:22:37.828 -08:00 [INF] Hosting environment: Development
+2021-01-29 09:22:37.828 -08:00 [INF] Content root path: C:\web-app
+2021-01-29 09:22:38.740 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44337/  
+2021-01-29 09:22:38.917 -08:00 [INF] Executing endpoint 'web_app.Controllers.HomeController.Index (web-app)'
+2021-01-29 09:22:39.528 -08:00 [INF] Route matched with {action = "Index", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32) on controller web_app.Controllers.HomeController (web-app).
+2021-01-29 09:22:43.434 -08:00 [INF] Entity Framework Core 3.1.11 initialized 'ECommDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-29 09:22:46.371 -08:00 [INF] Executed DbCommand (156ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[IsDiscontinued], [p].[Package], [p].[UnitPrice], [p].[ProductName], [p].[SupplierId]
+FROM [Products] AS [p]
+2021-01-29 09:22:46.822 -08:00 [INF] Executing ViewResult, running view Index.
+2021-01-29 09:22:47.878 -08:00 [INF] Executed DbCommand (97ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[FirstName], [t].[LastName], [t].[TotalAmount]
+FROM (
+    select top 1 c.Id, FirstName, LastName, sum(o.TotalAmount) as TotalAmount
+                                    from Customers as c 
+                                    join orders as o on o.CustomerId=c.Id
+                                    group by c.Id, FirstName, LastName
+                                    order by TotalAmount desc
+) AS [t]
+2021-01-29 09:22:48.316 -08:00 [INF] Executed ViewResult - view Index executed in 1576.8233ms.
+2021-01-29 09:22:48.323 -08:00 [INF] Executed action web_app.Controllers.HomeController.Index (web-app) in 8793.6701ms
+2021-01-29 09:22:48.378 -08:00 [INF] Executed endpoint 'web_app.Controllers.HomeController.Index (web-app)'
+2021-01-29 09:22:48.381 -08:00 [INF] Session started; Key:5cd95fa1-ca97-2b81-5a8b-c0f0200f1136, Id:5cd787bc-c834-9fcb-4335-1f39a6017822
+2021-01-29 09:22:48.397 -08:00 [INF] Request finished in 9661.9386ms 200 text/html; charset=utf-8
+2021-01-29 09:22:48.521 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44337/lib/jquery/dist/jquery.js  
+2021-01-29 09:22:49.081 -08:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'C:\web-app\wwwroot\lib\jquery\dist\jquery.js'
+2021-01-29 09:22:49.082 -08:00 [INF] Request finished in 561.0279ms 200 application/javascript
+2021-01-29 09:22:49.153 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44337/favicon.ico  
+2021-01-29 09:22:49.185 -08:00 [INF] Request finished in 32.6452ms 302 
+2021-01-29 09:22:49.231 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44337/ClientError?id=404  
+2021-01-29 09:22:49.233 -08:00 [INF] Executing endpoint 'web_app.Controllers.HomeController.ClientError (web-app)'
+2021-01-29 09:22:49.235 -08:00 [INF] Route matched with {action = "ClientError", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ClientError(Int32) on controller web_app.Controllers.HomeController (web-app).
+2021-01-29 09:22:49.245 -08:00 [INF] Executing ViewResult, running view ClientError.
+2021-01-29 09:22:49.261 -08:00 [INF] Executed ViewResult - view ClientError executed in 18.7454ms.
+2021-01-29 09:22:49.262 -08:00 [INF] Executed action web_app.Controllers.HomeController.ClientError (web-app) in 26.3771ms
+2021-01-29 09:22:49.262 -08:00 [INF] Executed endpoint 'web_app.Controllers.HomeController.ClientError (web-app)'
+2021-01-29 09:22:49.262 -08:00 [INF] Request finished in 31.0039ms 200 text/html; charset=utf-8
+2021-01-29 09:25:06.289 -08:00 [INF] User profile is available. Using 'C:\Users\ISInc\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-29 09:25:07.197 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-29 09:25:07.197 -08:00 [INF] Hosting environment: Development
+2021-01-29 09:25:07.197 -08:00 [INF] Content root path: C:\web-app
+2021-01-29 09:25:07.281 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44337/  
+2021-01-29 09:25:07.333 -08:00 [INF] Executing endpoint 'web_app.Controllers.HomeController.Index (web-app)'
+2021-01-29 09:25:07.413 -08:00 [INF] Route matched with {action = "Index", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32) on controller web_app.Controllers.HomeController (web-app).
+2021-01-29 09:25:08.405 -08:00 [INF] Entity Framework Core 3.1.11 initialized 'ECommDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-29 09:25:09.081 -08:00 [INF] Executed DbCommand (33ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[IsDiscontinued], [p].[Package], [p].[UnitPrice], [p].[ProductName], [p].[SupplierId]
+FROM [Products] AS [p]
+2021-01-29 09:25:09.293 -08:00 [INF] Executing ViewResult, running view Index.
+2021-01-29 09:25:09.612 -08:00 [INF] Executed DbCommand (35ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[FirstName], [t].[LastName], [t].[TotalAmount]
+FROM (
+    select top 1 c.Id, FirstName, LastName, sum(o.TotalAmount) as TotalAmount
+                                    from Customers as c 
+                                    join orders as o on o.CustomerId=c.Id
+                                    group by c.Id, FirstName, LastName
+                                    order by TotalAmount desc
+) AS [t]
+2021-01-29 09:25:09.770 -08:00 [INF] Executed ViewResult - view Index executed in 504.9445ms.
+2021-01-29 09:25:09.819 -08:00 [INF] Executed action web_app.Controllers.HomeController.Index (web-app) in 2404.9344ms
+2021-01-29 09:25:09.820 -08:00 [INF] Executed endpoint 'web_app.Controllers.HomeController.Index (web-app)'
+2021-01-29 09:25:09.823 -08:00 [INF] Session started; Key:4acd47bf-53b5-5d59-6cf9-47ab287851f1, Id:0049b27c-ce24-44b3-f7e1-b5085414d8a8
+2021-01-29 09:25:09.871 -08:00 [INF] Request finished in 2595.4995ms 200 text/html; charset=utf-8
+2021-01-29 09:25:10.120 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44337/favicon.ico  
+2021-01-29 09:25:10.131 -08:00 [INF] Request finished in 11.1311ms 302 
+2021-01-29 09:25:10.136 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44337/ClientError?id=404  
+2021-01-29 09:25:10.137 -08:00 [INF] Executing endpoint 'web_app.Controllers.HomeController.ClientError (web-app)'
+2021-01-29 09:25:10.144 -08:00 [INF] Route matched with {action = "ClientError", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ClientError(Int32) on controller web_app.Controllers.HomeController (web-app).
+2021-01-29 09:25:10.158 -08:00 [INF] Executing ViewResult, running view ClientError.
+2021-01-29 09:25:10.175 -08:00 [INF] Executed ViewResult - view ClientError executed in 23.2216ms.
+2021-01-29 09:25:10.176 -08:00 [INF] Executed action web_app.Controllers.HomeController.ClientError (web-app) in 31.8735ms
+2021-01-29 09:25:10.176 -08:00 [INF] Executed endpoint 'web_app.Controllers.HomeController.ClientError (web-app)'
+2021-01-29 09:25:10.176 -08:00 [INF] Request finished in 40.6524ms 200 text/html; charset=utf-8
+2021-01-29 09:26:25.699 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44337/  
+2021-01-29 09:26:25.703 -08:00 [INF] Executing endpoint 'web_app.Controllers.HomeController.Index (web-app)'
+2021-01-29 09:26:25.705 -08:00 [INF] Route matched with {action = "Index", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32) on controller web_app.Controllers.HomeController (web-app).
+2021-01-29 09:26:25.744 -08:00 [INF] Entity Framework Core 3.1.11 initialized 'ECommDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-29 09:26:25.746 -08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[IsDiscontinued], [p].[Package], [p].[UnitPrice], [p].[ProductName], [p].[SupplierId]
+FROM [Products] AS [p]
+2021-01-29 09:26:31.743 -08:00 [INF] Executing ViewResult, running view Index.
+2021-01-29 09:26:31.776 -08:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[FirstName], [t].[LastName], [t].[TotalAmount]
+FROM (
+    select top 1 c.Id, FirstName, LastName, sum(o.TotalAmount) as TotalAmount
+                                    from Customers as c 
+                                    join orders as o on o.CustomerId=c.Id
+                                    group by c.Id, FirstName, LastName
+                                    order by TotalAmount desc
+) AS [t]
+2021-01-29 09:26:31.923 -08:00 [INF] Executed ViewResult - view Index executed in 6168.4744ms.
+2021-01-29 09:26:31.923 -08:00 [INF] Executed action web_app.Controllers.HomeController.Index (web-app) in 6218.4301ms
+2021-01-29 09:26:31.924 -08:00 [INF] Executed endpoint 'web_app.Controllers.HomeController.Index (web-app)'
+2021-01-29 09:26:31.925 -08:00 [INF] Request finished in 6225.7449ms 200 text/html; charset=utf-8
+2021-01-29 09:26:32.251 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44337/favicon.ico  
+2021-01-29 09:26:32.259 -08:00 [INF] Request finished in 7.8686ms 302 
+2021-01-29 09:26:32.267 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44337/ClientError?id=404  
+2021-01-29 09:26:32.268 -08:00 [INF] Executing endpoint 'web_app.Controllers.HomeController.ClientError (web-app)'
+2021-01-29 09:26:32.269 -08:00 [INF] Route matched with {action = "ClientError", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ClientError(Int32) on controller web_app.Controllers.HomeController (web-app).
+2021-01-29 09:26:32.271 -08:00 [INF] Executing ViewResult, running view ClientError.
+2021-01-29 09:26:32.273 -08:00 [INF] Executed ViewResult - view ClientError executed in 2.3718ms.
+2021-01-29 09:26:32.273 -08:00 [INF] Executed action web_app.Controllers.HomeController.ClientError (web-app) in 4.3674ms
+2021-01-29 09:26:32.273 -08:00 [INF] Executed endpoint 'web_app.Controllers.HomeController.ClientError (web-app)'
+2021-01-29 09:26:32.273 -08:00 [INF] Request finished in 6.0928ms 200 text/html; charset=utf-8
+2021-01-29 09:27:04.004 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44337/  
+2021-01-29 09:27:04.006 -08:00 [INF] Executing endpoint 'web_app.Controllers.HomeController.Index (web-app)'
+2021-01-29 09:27:04.007 -08:00 [INF] Route matched with {action = "Index", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32) on controller web_app.Controllers.HomeController (web-app).
+2021-01-29 09:27:04.027 -08:00 [INF] Entity Framework Core 3.1.11 initialized 'ECommDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-29 09:27:04.036 -08:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[IsDiscontinued], [p].[Package], [p].[UnitPrice], [p].[ProductName], [p].[SupplierId]
+FROM [Products] AS [p]
+2021-01-29 09:27:04.562 -08:00 [INF] Executing ViewResult, running view Index.
+2021-01-29 09:27:04.615 -08:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[FirstName], [t].[LastName], [t].[TotalAmount]
+FROM (
+    select top 1 c.Id, FirstName, LastName, sum(o.TotalAmount) as TotalAmount
+                                    from Customers as c 
+                                    join orders as o on o.CustomerId=c.Id
+                                    group by c.Id, FirstName, LastName
+                                    order by TotalAmount desc
+) AS [t]
+2021-01-29 09:27:04.645 -08:00 [INF] Executed ViewResult - view Index executed in 600.1248ms.
+2021-01-29 09:27:04.646 -08:00 [INF] Executed action web_app.Controllers.HomeController.Index (web-app) in 635.9398ms
+2021-01-29 09:27:04.646 -08:00 [INF] Executed endpoint 'web_app.Controllers.HomeController.Index (web-app)'
+2021-01-29 09:27:04.646 -08:00 [INF] Request finished in 643.0752ms 200 text/html; charset=utf-8
+2021-01-29 09:27:04.877 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44337/favicon.ico  
+2021-01-29 09:27:04.879 -08:00 [INF] Request finished in 2.3344ms 302 
+2021-01-29 09:27:04.884 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44337/ClientError?id=404  
+2021-01-29 09:27:04.885 -08:00 [INF] Executing endpoint 'web_app.Controllers.HomeController.ClientError (web-app)'
+2021-01-29 09:27:04.885 -08:00 [INF] Route matched with {action = "ClientError", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ClientError(Int32) on controller web_app.Controllers.HomeController (web-app).
+2021-01-29 09:27:04.887 -08:00 [INF] Executing ViewResult, running view ClientError.
+2021-01-29 09:27:04.888 -08:00 [INF] Executed ViewResult - view ClientError executed in 0.8672ms.
+2021-01-29 09:27:04.888 -08:00 [INF] Executed action web_app.Controllers.HomeController.ClientError (web-app) in 2.5936ms
+2021-01-29 09:27:04.888 -08:00 [INF] Executed endpoint 'web_app.Controllers.HomeController.ClientError (web-app)'
+2021-01-29 09:27:04.888 -08:00 [INF] Request finished in 3.7624ms 200 text/html; charset=utf-8
+2021-01-29 09:28:59.105 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44337/  
+2021-01-29 09:28:59.107 -08:00 [INF] Executing endpoint 'web_app.Controllers.HomeController.Index (web-app)'
+2021-01-29 09:28:59.109 -08:00 [INF] Route matched with {action = "Index", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32) on controller web_app.Controllers.HomeController (web-app).
+2021-01-29 09:28:59.121 -08:00 [INF] Entity Framework Core 3.1.11 initialized 'ECommDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-29 09:28:59.129 -08:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[IsDiscontinued], [p].[Package], [p].[UnitPrice], [p].[ProductName], [p].[SupplierId]
+FROM [Products] AS [p]
+2021-01-29 09:28:59.459 -08:00 [INF] Executing ViewResult, running view Index.
+2021-01-29 09:28:59.500 -08:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[FirstName], [t].[LastName], [t].[TotalAmount]
+FROM (
+    select top 1 c.Id, FirstName, LastName, sum(o.TotalAmount) as TotalAmount
+                                    from Customers as c 
+                                    join orders as o on o.CustomerId=c.Id
+                                    group by c.Id, FirstName, LastName
+                                    order by TotalAmount desc
+) AS [t]
+2021-01-29 09:28:59.519 -08:00 [INF] Executed ViewResult - view Index executed in 387.5671ms.
+2021-01-29 09:28:59.519 -08:00 [INF] Executed action web_app.Controllers.HomeController.Index (web-app) in 409.9851ms
+2021-01-29 09:28:59.519 -08:00 [INF] Executed endpoint 'web_app.Controllers.HomeController.Index (web-app)'
+2021-01-29 09:28:59.520 -08:00 [INF] Request finished in 415.053ms 200 text/html; charset=utf-8
+2021-01-29 09:28:59.727 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44337/favicon.ico  
+2021-01-29 09:28:59.729 -08:00 [INF] Request finished in 2.2318ms 302 
+2021-01-29 09:28:59.731 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44337/ClientError?id=404  
+2021-01-29 09:28:59.732 -08:00 [INF] Executing endpoint 'web_app.Controllers.HomeController.ClientError (web-app)'
+2021-01-29 09:28:59.737 -08:00 [INF] Route matched with {action = "ClientError", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ClientError(Int32) on controller web_app.Controllers.HomeController (web-app).
+2021-01-29 09:28:59.739 -08:00 [INF] Executing ViewResult, running view ClientError.
+2021-01-29 09:28:59.739 -08:00 [INF] Executed ViewResult - view ClientError executed in 0.6672ms.
+2021-01-29 09:28:59.739 -08:00 [INF] Executed action web_app.Controllers.HomeController.ClientError (web-app) in 2.1773ms
+2021-01-29 09:28:59.740 -08:00 [INF] Executed endpoint 'web_app.Controllers.HomeController.ClientError (web-app)'
+2021-01-29 09:28:59.740 -08:00 [INF] Request finished in 8.2454ms 200 text/html; charset=utf-8
+2021-01-29 09:34:07.167 -08:00 [INF] User profile is available. Using 'C:\Users\ISInc\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-29 09:34:11.614 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-29 09:34:11.614 -08:00 [INF] Hosting environment: Development
+2021-01-29 09:34:11.615 -08:00 [INF] Content root path: C:\web-app
+2021-01-29 09:34:11.900 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44337/  
+2021-01-29 09:34:12.439 -08:00 [INF] Request finished in 543.501ms 500 text/html; charset=utf-8
+2021-01-29 09:34:13.659 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44337/favicon.ico  
+2021-01-29 09:34:13.671 -08:00 [INF] Request finished in 12.0135ms 302 
+2021-01-29 09:34:13.700 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44337/ClientError?id=404  
+2021-01-29 09:34:13.701 -08:00 [INF] Executing endpoint 'web_app.Controllers.HomeController.ClientError (web-app)'
+2021-01-29 09:34:13.808 -08:00 [INF] Route matched with {action = "ClientError", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ClientError(Int32) on controller web_app.Controllers.HomeController (web-app).
+2021-01-29 09:34:14.136 -08:00 [INF] Executing ViewResult, running view ClientError.
+2021-01-29 09:34:14.235 -08:00 [INF] Executed ViewResult - view ClientError executed in 117.5025ms.
+2021-01-29 09:34:14.238 -08:00 [INF] Executed action web_app.Controllers.HomeController.ClientError (web-app) in 428.929ms
+2021-01-29 09:34:14.238 -08:00 [INF] Executed endpoint 'web_app.Controllers.HomeController.ClientError (web-app)'
+2021-01-29 09:34:14.242 -08:00 [INF] Request finished in 541.7758ms 200 text/html; charset=utf-8
+2021-01-29 10:43:47.167 -08:00 [INF] User profile is available. Using 'C:\Users\ISInc\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-29 10:43:48.047 -08:00 [INF] Now listening on: https://localhost:5001
+2021-01-29 10:43:48.055 -08:00 [INF] Now listening on: http://localhost:5000
+2021-01-29 10:43:48.060 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-29 10:43:48.061 -08:00 [INF] Hosting environment: Development
+2021-01-29 10:43:48.062 -08:00 [INF] Content root path: C:\web-app
+2021-01-29 10:43:51.169 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2021-01-29 10:43:51.800 -08:00 [INF] Request finished in 635.1922ms 500 text/html; charset=utf-8
+2021-01-29 10:44:36.331 -08:00 [INF] User profile is available. Using 'C:\Users\ISInc\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-29 10:44:37.006 -08:00 [INF] Now listening on: https://localhost:5001
+2021-01-29 10:44:37.018 -08:00 [INF] Now listening on: http://localhost:5000
+2021-01-29 10:44:37.020 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-29 10:44:37.021 -08:00 [INF] Hosting environment: Development
+2021-01-29 10:44:37.022 -08:00 [INF] Content root path: C:\web-app
+2021-01-29 10:44:39.545 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2021-01-29 10:44:39.732 -08:00 [INF] Executing endpoint 'web_app.Controllers.HomeController.Index (web-app)'
+2021-01-29 10:44:39.921 -08:00 [INF] Route matched with {action = "Index", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32) on controller web_app.Controllers.HomeController (web-app).
+2021-01-29 10:44:42.474 -08:00 [INF] Entity Framework Core 3.1.11 initialized 'ECommDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-29 10:44:49.258 -08:00 [INF] Executed DbCommand (114ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[IsDiscontinued], [p].[Package], [p].[UnitPrice], [p].[ProductName], [p].[SupplierId]
+FROM [Products] AS [p]
+2021-01-29 10:44:50.003 -08:00 [INF] Executing ViewResult, running view Index.
+2021-01-29 10:44:51.159 -08:00 [INF] Executed DbCommand (154ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[FirstName], [t].[LastName], [t].[TotalAmount]
+FROM (
+    select top 1 c.Id, FirstName, LastName, sum(o.TotalAmount) as TotalAmount
+                                    from Customers as c 
+                                    join orders as o on o.CustomerId=c.Id
+                                    group by c.Id, FirstName, LastName
+                                    order by TotalAmount desc
+) AS [t]
+2021-01-29 10:44:51.561 -08:00 [INF] Executed ViewResult - view Index executed in 1670.8161ms.
+2021-01-29 10:44:52.849 -08:00 [INF] Executed action web_app.Controllers.HomeController.Index (web-app) in 12923.7446ms
+2021-01-29 10:44:52.852 -08:00 [INF] Executed endpoint 'web_app.Controllers.HomeController.Index (web-app)'
+2021-01-29 10:44:52.858 -08:00 [INF] Session started; Key:946ed694-e2f4-1cc0-5560-38f2ae18aed2, Id:4c9eac33-7a73-4e60-5ed7-86c0417db32e
+2021-01-29 10:44:52.886 -08:00 [INF] Request finished in 13345.2056ms 200 text/html; charset=utf-8
+2021-01-29 10:45:10.971 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/productapi/getproducts  
+2021-01-29 10:45:10.984 -08:00 [INF] Executing endpoint 'web_app.Controllers.ProductAPIController.GetProducts (web-app)'
+2021-01-29 10:45:11.100 -08:00 [INF] Route matched with {action = "GetProducts", controller = "ProductAPI", page = ""}. Executing controller action with signature System.String GetProducts() on controller web_app.Controllers.ProductAPIController (web-app).
+2021-01-29 10:45:11.122 -08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-01-29 10:45:11.143 -08:00 [INF] Executed action web_app.Controllers.ProductAPIController.GetProducts (web-app) in 25.0567ms
+2021-01-29 10:45:11.147 -08:00 [INF] Executed endpoint 'web_app.Controllers.ProductAPIController.GetProducts (web-app)'
+2021-01-29 10:45:11.150 -08:00 [INF] Request finished in 179.0452ms 200 text/plain; charset=utf-8
+2021-01-29 10:49:16.481 -08:00 [INF] User profile is available. Using 'C:\Users\ISInc\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-29 10:49:17.175 -08:00 [INF] Now listening on: https://localhost:5001
+2021-01-29 10:49:17.180 -08:00 [INF] Now listening on: http://localhost:5000
+2021-01-29 10:49:17.181 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-29 10:49:17.182 -08:00 [INF] Hosting environment: Development
+2021-01-29 10:49:17.191 -08:00 [INF] Content root path: C:\web-app
+2021-01-29 10:49:20.174 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2021-01-29 10:49:20.345 -08:00 [INF] Executing endpoint 'web_app.Controllers.HomeController.Index (web-app)'
+2021-01-29 10:49:21.106 -08:00 [INF] Route matched with {action = "Index", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32) on controller web_app.Controllers.HomeController (web-app).
+2021-01-29 10:49:24.131 -08:00 [INF] Entity Framework Core 3.1.11 initialized 'ECommDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-29 10:49:28.570 -08:00 [INF] Executed DbCommand (787ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[IsDiscontinued], [p].[Package], [p].[UnitPrice], [p].[ProductName], [p].[SupplierId]
+FROM [Products] AS [p]
+2021-01-29 10:49:29.187 -08:00 [INF] Executing ViewResult, running view Index.
+2021-01-29 10:49:30.980 -08:00 [INF] Executed DbCommand (498ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[FirstName], [t].[LastName], [t].[TotalAmount]
+FROM (
+    select top 1 c.Id, FirstName, LastName, sum(o.TotalAmount) as TotalAmount
+                                    from Customers as c 
+                                    join orders as o on o.CustomerId=c.Id
+                                    group by c.Id, FirstName, LastName
+                                    order by TotalAmount desc
+) AS [t]
+2021-01-29 10:49:31.281 -08:00 [INF] Executed ViewResult - view Index executed in 2261.5121ms.
+2021-01-29 10:49:32.067 -08:00 [INF] Executed action web_app.Controllers.HomeController.Index (web-app) in 10952.1261ms
+2021-01-29 10:49:32.073 -08:00 [INF] Executed endpoint 'web_app.Controllers.HomeController.Index (web-app)'
+2021-01-29 10:49:32.088 -08:00 [INF] Session started; Key:aa0f41af-4226-46ee-f6ad-307aa8e9c15a, Id:248f9ffd-d774-3526-929a-4df1565a82a9
+2021-01-29 10:49:32.135 -08:00 [INF] Request finished in 11964.673ms 200 text/html; charset=utf-8
+2021-01-29 10:49:33.543 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/product  
+2021-01-29 10:49:33.560 -08:00 [INF] Executing endpoint 'web_app.Controllers.ProductAPIController.GetProducts (web-app)'
+2021-01-29 10:49:33.671 -08:00 [INF] Route matched with {action = "GetProducts", controller = "ProductAPI", page = ""}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[web_app.Shared.Models.Product] GetProducts() on controller web_app.Controllers.ProductAPIController (web-app).
+2021-01-29 10:49:33.751 -08:00 [INF] Entity Framework Core 3.1.11 initialized 'ECommDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-29 10:49:33.759 -08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[IsDiscontinued], [p].[Package], [p].[UnitPrice], [p].[ProductName], [p].[SupplierId]
+FROM [Products] AS [p]
+2021-01-29 10:49:33.776 -08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[web_app.Shared.Models.Product, web-app.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-01-29 10:49:33.793 -08:00 [INF] Executed action web_app.Controllers.ProductAPIController.GetProducts (web-app) in 83.2769ms
+2021-01-29 10:49:33.803 -08:00 [INF] Executed endpoint 'web_app.Controllers.ProductAPIController.GetProducts (web-app)'
+2021-01-29 10:49:33.810 -08:00 [INF] Request finished in 267.7818ms 200 application/json; charset=utf-8
+2021-01-29 10:50:35.281 -08:00 [INF] User profile is available. Using 'C:\Users\ISInc\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-29 10:50:35.910 -08:00 [INF] Now listening on: https://localhost:5001
+2021-01-29 10:50:35.918 -08:00 [INF] Now listening on: http://localhost:5000
+2021-01-29 10:50:35.920 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-29 10:50:35.921 -08:00 [INF] Hosting environment: Development
+2021-01-29 10:50:35.922 -08:00 [INF] Content root path: C:\web-app
+2021-01-29 10:50:38.463 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2021-01-29 10:50:38.563 -08:00 [INF] Executing endpoint 'web_app.Controllers.HomeController.Index (web-app)'
+2021-01-29 10:50:38.757 -08:00 [INF] Route matched with {action = "Index", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32) on controller web_app.Controllers.HomeController (web-app).
+2021-01-29 10:50:41.738 -08:00 [INF] Entity Framework Core 3.1.11 initialized 'ECommDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-29 10:50:43.908 -08:00 [INF] Executed DbCommand (142ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[IsDiscontinued], [p].[Package], [p].[UnitPrice], [p].[ProductName], [p].[SupplierId]
+FROM [Products] AS [p]
+2021-01-29 10:50:44.433 -08:00 [INF] Executing ViewResult, running view Index.
+2021-01-29 10:50:45.330 -08:00 [INF] Executed DbCommand (123ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[FirstName], [t].[LastName], [t].[TotalAmount]
+FROM (
+    select top 1 c.Id, FirstName, LastName, sum(o.TotalAmount) as TotalAmount
+                                    from Customers as c 
+                                    join orders as o on o.CustomerId=c.Id
+                                    group by c.Id, FirstName, LastName
+                                    order by TotalAmount desc
+) AS [t]
+2021-01-29 10:50:45.550 -08:00 [INF] Executed ViewResult - view Index executed in 1178.367ms.
+2021-01-29 10:50:46.151 -08:00 [INF] Executed action web_app.Controllers.HomeController.Index (web-app) in 7389.4209ms
+2021-01-29 10:50:46.206 -08:00 [INF] Executed endpoint 'web_app.Controllers.HomeController.Index (web-app)'
+2021-01-29 10:50:46.231 -08:00 [INF] Session started; Key:70a24d9c-5415-1783-7f45-dafc320ccb8c, Id:f5942957-0564-4b71-bc0a-5c559b14b85b
+2021-01-29 10:50:46.276 -08:00 [INF] Request finished in 7815.6998ms 200 text/html; charset=utf-8
+2021-01-29 10:50:52.096 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/product  
+2021-01-29 10:50:52.116 -08:00 [INF] Executing endpoint 'web_app.Controllers.ProductAPIController.GetProducts (web-app)'
+2021-01-29 10:50:52.213 -08:00 [INF] Route matched with {action = "GetProducts", controller = "ProductAPI", page = ""}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[web_app.Shared.Models.Product] GetProducts() on controller web_app.Controllers.ProductAPIController (web-app).
+2021-01-29 10:50:52.299 -08:00 [INF] Entity Framework Core 3.1.11 initialized 'ECommDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-29 10:50:52.304 -08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[IsDiscontinued], [p].[Package], [p].[UnitPrice], [p].[ProductName], [p].[SupplierId]
+FROM [Products] AS [p]
+2021-01-29 10:50:52.320 -08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[web_app.Shared.Models.Product, web-app.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-01-29 10:50:52.332 -08:00 [INF] Executed action web_app.Controllers.ProductAPIController.GetProducts (web-app) in 106.5213ms
+2021-01-29 10:50:52.347 -08:00 [INF] Executed endpoint 'web_app.Controllers.ProductAPIController.GetProducts (web-app)'
+2021-01-29 10:50:52.350 -08:00 [INF] Request finished in 254.3423ms 200 application/json; charset=utf-8
+2021-01-29 10:50:56.044 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/product/1  
+2021-01-29 10:50:56.064 -08:00 [INF] Executing endpoint 'web_app.Controllers.ProductAPIController.GetProduct (web-app)'
+2021-01-29 10:50:56.074 -08:00 [INF] Route matched with {action = "GetProduct", controller = "ProductAPI", page = ""}. Executing controller action with signature web_app.Shared.Models.Product GetProduct(Int32) on controller web_app.Controllers.ProductAPIController (web-app).
+2021-01-29 10:50:56.191 -08:00 [INF] Entity Framework Core 3.1.11 initialized 'ECommDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-29 10:50:56.305 -08:00 [INF] Executed DbCommand (38ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[IsDiscontinued], [p].[Package], [p].[UnitPrice], [p].[ProductName], [p].[SupplierId]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2021-01-29 10:50:56.314 -08:00 [INF] Executing ObjectResult, writing value of type 'web_app.Shared.Models.Product'.
+2021-01-29 10:50:56.324 -08:00 [INF] Executed action web_app.Controllers.ProductAPIController.GetProduct (web-app) in 152.4069ms
+2021-01-29 10:50:56.334 -08:00 [INF] Executed endpoint 'web_app.Controllers.ProductAPIController.GetProduct (web-app)'
+2021-01-29 10:50:56.350 -08:00 [INF] Request finished in 306.6366ms 200 application/json; charset=utf-8
+2021-01-29 10:51:28.776 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/product/10  
+2021-01-29 10:51:28.782 -08:00 [INF] Executing endpoint 'web_app.Controllers.ProductAPIController.GetProduct (web-app)'
+2021-01-29 10:51:28.785 -08:00 [INF] Route matched with {action = "GetProduct", controller = "ProductAPI", page = ""}. Executing controller action with signature web_app.Shared.Models.Product GetProduct(Int32) on controller web_app.Controllers.ProductAPIController (web-app).
+2021-01-29 10:51:28.892 -08:00 [INF] Entity Framework Core 3.1.11 initialized 'ECommDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-29 10:51:28.968 -08:00 [INF] Executed DbCommand (12ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[IsDiscontinued], [p].[Package], [p].[UnitPrice], [p].[ProductName], [p].[SupplierId]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2021-01-29 10:51:28.980 -08:00 [INF] Executing ObjectResult, writing value of type 'web_app.Shared.Models.Product'.
+2021-01-29 10:51:28.983 -08:00 [INF] Executed action web_app.Controllers.ProductAPIController.GetProduct (web-app) in 93.6891ms
+2021-01-29 10:51:29.004 -08:00 [INF] Executed endpoint 'web_app.Controllers.ProductAPIController.GetProduct (web-app)'
+2021-01-29 10:51:29.006 -08:00 [INF] Request finished in 230.5272ms 200 application/json; charset=utf-8
+2021-01-29 10:51:35.215 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/product/80  
+2021-01-29 10:51:35.249 -08:00 [INF] Executing endpoint 'web_app.Controllers.ProductAPIController.GetProduct (web-app)'
+2021-01-29 10:51:35.287 -08:00 [INF] Route matched with {action = "GetProduct", controller = "ProductAPI", page = ""}. Executing controller action with signature web_app.Shared.Models.Product GetProduct(Int32) on controller web_app.Controllers.ProductAPIController (web-app).
+2021-01-29 10:51:35.315 -08:00 [INF] Entity Framework Core 3.1.11 initialized 'ECommDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-29 10:51:35.331 -08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[IsDiscontinued], [p].[Package], [p].[UnitPrice], [p].[ProductName], [p].[SupplierId]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2021-01-29 10:51:35.345 -08:00 [INF] Executing ObjectResult, writing value of type 'web_app.Shared.Models.Product'.
+2021-01-29 10:51:35.348 -08:00 [INF] Executed action web_app.Controllers.ProductAPIController.GetProduct (web-app) in 35.0409ms
+2021-01-29 10:51:35.350 -08:00 [INF] Executed endpoint 'web_app.Controllers.ProductAPIController.GetProduct (web-app)'
+2021-01-29 10:51:35.373 -08:00 [INF] Request finished in 159.1722ms 200 application/json; charset=utf-8
+2021-01-29 11:11:39.916 -08:00 [INF] User profile is available. Using 'C:\Users\ISInc\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-29 11:11:40.687 -08:00 [INF] Now listening on: https://localhost:5001
+2021-01-29 11:11:40.706 -08:00 [INF] Now listening on: http://localhost:5000
+2021-01-29 11:11:40.707 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-29 11:11:40.710 -08:00 [INF] Hosting environment: Development
+2021-01-29 11:11:40.714 -08:00 [INF] Content root path: C:\web-app
+2021-01-29 11:11:44.532 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2021-01-29 11:11:45.064 -08:00 [INF] Executing endpoint 'web_app.Controllers.HomeController.Index (web-app)'
+2021-01-29 11:11:45.545 -08:00 [INF] Route matched with {action = "Index", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32) on controller web_app.Controllers.HomeController (web-app).
+2021-01-29 11:11:48.444 -08:00 [INF] Entity Framework Core 3.1.11 initialized 'ECommDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-29 11:11:51.887 -08:00 [INF] Executed DbCommand (92ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[IsDiscontinued], [p].[Package], [p].[UnitPrice], [p].[ProductName], [p].[SupplierId]
+FROM [Products] AS [p]
+2021-01-29 11:11:52.418 -08:00 [INF] Executing ViewResult, running view Index.
+2021-01-29 11:11:54.086 -08:00 [INF] Executed DbCommand (664ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[FirstName], [t].[LastName], [t].[TotalAmount]
+FROM (
+    select top 1 c.Id, FirstName, LastName, sum(o.TotalAmount) as TotalAmount
+                                    from Customers as c 
+                                    join orders as o on o.CustomerId=c.Id
+                                    group by c.Id, FirstName, LastName
+                                    order by TotalAmount desc
+) AS [t]
+2021-01-29 11:11:54.610 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/product  
+2021-01-29 11:11:54.647 -08:00 [INF] Executed ViewResult - view Index executed in 2268.3584ms.
+2021-01-29 11:11:54.667 -08:00 [INF] Executed action web_app.Controllers.HomeController.Index (web-app) in 9064.5552ms
+2021-01-29 11:11:54.696 -08:00 [INF] Executed endpoint 'web_app.Controllers.HomeController.Index (web-app)'
+2021-01-29 11:11:54.720 -08:00 [INF] Session started; Key:b5dc4a09-6ec9-327c-dd3c-cac642a10c03, Id:e375ec14-fc7c-8bd5-ab5a-2f7d0f624b50
+2021-01-29 11:11:54.689 -08:00 [INF] Executing endpoint 'web_app.Controllers.ProductAPIController.GetProducts (web-app)'
+2021-01-29 11:11:54.733 -08:00 [INF] Route matched with {action = "GetProducts", controller = "ProductAPI", page = ""}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[web_app.Shared.Models.Product] GetProducts() on controller web_app.Controllers.ProductAPIController (web-app).
+2021-01-29 11:11:54.809 -08:00 [INF] Request finished in 10231.0313ms 200 text/html; charset=utf-8
+2021-01-29 11:11:54.849 -08:00 [INF] Entity Framework Core 3.1.11 initialized 'ECommDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-29 11:11:54.892 -08:00 [INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[IsDiscontinued], [p].[Package], [p].[UnitPrice], [p].[ProductName], [p].[SupplierId]
+FROM [Products] AS [p]
+2021-01-29 11:11:54.915 -08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[web_app.Shared.Models.Product, web-app.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-01-29 11:11:54.942 -08:00 [INF] Executed action web_app.Controllers.ProductAPIController.GetProducts (web-app) in 164.0094ms
+2021-01-29 11:11:54.947 -08:00 [INF] Executed endpoint 'web_app.Controllers.ProductAPIController.GetProducts (web-app)'
+2021-01-29 11:11:54.949 -08:00 [INF] Request finished in 339.0089ms 200 application/json; charset=utf-8
+2021-01-29 11:13:53.431 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/product  
+2021-01-29 11:13:53.438 -08:00 [INF] Executing endpoint 'web_app.Controllers.ProductAPIController.GetProducts (web-app)'
+2021-01-29 11:13:53.446 -08:00 [INF] Route matched with {action = "GetProducts", controller = "ProductAPI", page = ""}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[web_app.Shared.Models.Product] GetProducts() on controller web_app.Controllers.ProductAPIController (web-app).
+2021-01-29 11:13:53.464 -08:00 [INF] Entity Framework Core 3.1.11 initialized 'ECommDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-29 11:13:53.473 -08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[IsDiscontinued], [p].[Package], [p].[UnitPrice], [p].[ProductName], [p].[SupplierId]
+FROM [Products] AS [p]
+2021-01-29 11:13:53.479 -08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[web_app.Shared.Models.Product, web-app.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-01-29 11:13:53.486 -08:00 [INF] Executed action web_app.Controllers.ProductAPIController.GetProducts (web-app) in 34.0505ms
+2021-01-29 11:13:53.505 -08:00 [INF] Executed endpoint 'web_app.Controllers.ProductAPIController.GetProducts (web-app)'
+2021-01-29 11:13:53.510 -08:00 [INF] Request finished in 79.5041ms 200 application/json; charset=utf-8
+2021-01-29 11:14:17.219 -08:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/product  0
+2021-01-29 11:14:17.226 -08:00 [INF] Executing endpoint 'web_app.Controllers.ProductAPIController.AddProduct (web-app)'
+2021-01-29 11:14:17.241 -08:00 [INF] Route matched with {action = "AddProduct", controller = "ProductAPI", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddProduct(web_app.Shared.Models.Product) on controller web_app.Controllers.ProductAPIController (web-app).
+2021-01-29 11:14:17.265 -08:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2021-01-29 11:14:17.280 -08:00 [INF] Executed action web_app.Controllers.ProductAPIController.AddProduct (web-app) in 32.1988ms
+2021-01-29 11:14:17.290 -08:00 [INF] Executed endpoint 'web_app.Controllers.ProductAPIController.AddProduct (web-app)'
+2021-01-29 11:14:17.291 -08:00 [INF] Request finished in 72.6563ms 415 application/problem+json; charset=utf-8
+2021-01-29 11:16:29.553 -08:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/product multipart/form-data; boundary=--------------------------773137730616363003137604 715
+2021-01-29 11:16:29.579 -08:00 [INF] Executing endpoint 'web_app.Controllers.ProductAPIController.AddProduct (web-app)'
+2021-01-29 11:16:29.611 -08:00 [INF] Route matched with {action = "AddProduct", controller = "ProductAPI", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddProduct(web_app.Shared.Models.Product) on controller web_app.Controllers.ProductAPIController (web-app).
+2021-01-29 11:16:29.675 -08:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2021-01-29 11:16:29.679 -08:00 [INF] Executed action web_app.Controllers.ProductAPIController.AddProduct (web-app) in 39.8325ms
+2021-01-29 11:16:29.682 -08:00 [INF] Executed endpoint 'web_app.Controllers.ProductAPIController.AddProduct (web-app)'
+2021-01-29 11:16:29.689 -08:00 [INF] Request finished in 136.1665ms 415 application/problem+json; charset=utf-8
+2021-01-29 11:18:48.196 -08:00 [INF] User profile is available. Using 'C:\Users\ISInc\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-29 11:18:49.065 -08:00 [INF] Now listening on: https://localhost:5001
+2021-01-29 11:18:49.068 -08:00 [INF] Now listening on: http://localhost:5000
+2021-01-29 11:18:49.072 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-29 11:18:49.074 -08:00 [INF] Hosting environment: Development
+2021-01-29 11:18:49.075 -08:00 [INF] Content root path: C:\web-app
+2021-01-29 11:18:53.690 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2021-01-29 11:18:54.352 -08:00 [INF] Executing endpoint 'web_app.Controllers.HomeController.Index (web-app)'
+2021-01-29 11:18:54.857 -08:00 [INF] Route matched with {action = "Index", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32) on controller web_app.Controllers.HomeController (web-app).
+2021-01-29 11:19:17.755 -08:00 [INF] User profile is available. Using 'C:\Users\ISInc\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-29 11:19:18.683 -08:00 [INF] Now listening on: https://localhost:5001
+2021-01-29 11:19:18.693 -08:00 [INF] Now listening on: http://localhost:5000
+2021-01-29 11:19:18.695 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-29 11:19:18.696 -08:00 [INF] Hosting environment: Development
+2021-01-29 11:19:18.697 -08:00 [INF] Content root path: C:\web-app
+2021-01-29 11:19:23.236 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2021-01-29 11:19:23.421 -08:00 [INF] Executing endpoint 'web_app.Controllers.HomeController.Index (web-app)'
+2021-01-29 11:19:23.638 -08:00 [INF] Route matched with {action = "Index", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32) on controller web_app.Controllers.HomeController (web-app).
+2021-01-29 11:19:26.245 -08:00 [INF] Entity Framework Core 3.1.11 initialized 'ECommDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-29 11:19:27.768 -08:00 [INF] Executed DbCommand (187ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[IsDiscontinued], [p].[Package], [p].[UnitPrice], [p].[ProductName], [p].[SupplierId]
+FROM [Products] AS [p]
+2021-01-29 11:19:28.136 -08:00 [INF] Executing ViewResult, running view Index.
+2021-01-29 11:19:29.380 -08:00 [INF] Executed DbCommand (190ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[FirstName], [t].[LastName], [t].[TotalAmount]
+FROM (
+    select top 1 c.Id, FirstName, LastName, sum(o.TotalAmount) as TotalAmount
+                                    from Customers as c 
+                                    join orders as o on o.CustomerId=c.Id
+                                    group by c.Id, FirstName, LastName
+                                    order by TotalAmount desc
+) AS [t]
+2021-01-29 11:19:29.790 -08:00 [INF] Executed ViewResult - view Index executed in 1766.9721ms.
+2021-01-29 11:19:30.640 -08:00 [INF] Executed action web_app.Controllers.HomeController.Index (web-app) in 6997.6119ms
+2021-01-29 11:19:30.646 -08:00 [INF] Executed endpoint 'web_app.Controllers.HomeController.Index (web-app)'
+2021-01-29 11:19:30.656 -08:00 [INF] Session started; Key:22f1a669-7917-c61d-8595-e98d1362b8e8, Id:3285d5fe-0548-e345-798e-c214174e7677
+2021-01-29 11:19:30.707 -08:00 [INF] Request finished in 7469.5723ms 200 text/html; charset=utf-8
+2021-01-29 11:19:47.482 -08:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/product3 multipart/form-data; boundary=--------------------------067800937417205813201174 715
+2021-01-29 11:19:47.489 -08:00 [INF] Executing endpoint 'web_app.Controllers.ProductAPIController.AddProduct3 (web-app)'
+2021-01-29 11:19:47.494 -08:00 [INF] Route matched with {action = "AddProduct3", controller = "ProductAPI", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddProduct3() on controller web_app.Controllers.ProductAPIController (web-app).
+2021-01-29 11:19:54.912 -08:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2021-01-29 11:19:54.934 -08:00 [INF] Executed action web_app.Controllers.ProductAPIController.AddProduct3 (web-app) in 7411.7164ms
+2021-01-29 11:19:54.937 -08:00 [INF] Executed endpoint 'web_app.Controllers.ProductAPIController.AddProduct3 (web-app)'
+2021-01-29 11:19:54.940 -08:00 [INF] Request finished in 7458.3742ms 200 
+2021-01-29 11:23:51.716 -08:00 [INF] User profile is available. Using 'C:\Users\ISInc\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-29 11:23:52.597 -08:00 [INF] Now listening on: https://localhost:5001
+2021-01-29 11:23:52.598 -08:00 [INF] Now listening on: http://localhost:5000
+2021-01-29 11:23:52.599 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-29 11:23:52.600 -08:00 [INF] Hosting environment: Development
+2021-01-29 11:23:52.601 -08:00 [INF] Content root path: C:\web-app
+2021-01-29 11:23:55.922 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2021-01-29 11:23:56.028 -08:00 [INF] Executing endpoint 'web_app.Controllers.HomeController.Index (web-app)'
+2021-01-29 11:23:56.258 -08:00 [INF] Route matched with {action = "Index", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32) on controller web_app.Controllers.HomeController (web-app).
+2021-01-29 11:23:58.305 -08:00 [INF] Entity Framework Core 3.1.11 initialized 'ECommDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-29 11:24:00.916 -08:00 [INF] Executed DbCommand (46ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[IsDiscontinued], [p].[Package], [p].[UnitPrice], [p].[ProductName], [p].[SupplierId]
+FROM [Products] AS [p]
+2021-01-29 11:24:01.224 -08:00 [INF] Executing ViewResult, running view Index.
+2021-01-29 11:24:01.860 -08:00 [INF] Executed DbCommand (90ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[FirstName], [t].[LastName], [t].[TotalAmount]
+FROM (
+    select top 1 c.Id, FirstName, LastName, sum(o.TotalAmount) as TotalAmount
+                                    from Customers as c 
+                                    join orders as o on o.CustomerId=c.Id
+                                    group by c.Id, FirstName, LastName
+                                    order by TotalAmount desc
+) AS [t]
+2021-01-29 11:24:02.170 -08:00 [INF] Executed ViewResult - view Index executed in 1000.4282ms.
+2021-01-29 11:24:02.724 -08:00 [INF] Executed action web_app.Controllers.HomeController.Index (web-app) in 6462.6812ms
+2021-01-29 11:24:02.728 -08:00 [INF] Executed endpoint 'web_app.Controllers.HomeController.Index (web-app)'
+2021-01-29 11:24:02.760 -08:00 [INF] Session started; Key:03050c6e-97d6-7370-bf25-6b5a5c97c120, Id:5a9a8329-eaf5-a945-5ce9-20efe1f30914
+2021-01-29 11:24:02.776 -08:00 [INF] Request finished in 6857.7021ms 200 text/html; charset=utf-8
+2021-01-29 11:24:56.076 -08:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/product multipart/form-data; boundary=--------------------------919070869197346611467842 715
+2021-01-29 11:24:56.095 -08:00 [INF] Executing endpoint 'web_app.Controllers.ProductAPIController.AddProduct (web-app)'
+2021-01-29 11:24:56.145 -08:00 [INF] Route matched with {action = "AddProduct", controller = "ProductAPI", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddProduct(web_app.Shared.Models.Product) on controller web_app.Controllers.ProductAPIController (web-app).
+2021-01-29 11:24:56.206 -08:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2021-01-29 11:24:56.215 -08:00 [INF] Executed action web_app.Controllers.ProductAPIController.AddProduct (web-app) in 56.6544ms
+2021-01-29 11:24:56.251 -08:00 [INF] Executed endpoint 'web_app.Controllers.ProductAPIController.AddProduct (web-app)'
+2021-01-29 11:24:56.266 -08:00 [INF] Request finished in 189.6634ms 415 application/problem+json; charset=utf-8
+2021-01-29 11:44:13.938 -08:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/product application/json 154
+2021-01-29 11:44:13.956 -08:00 [INF] Executing endpoint 'web_app.Controllers.ProductAPIController.AddProduct (web-app)'
+2021-01-29 11:44:13.968 -08:00 [INF] Route matched with {action = "AddProduct", controller = "ProductAPI", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddProduct(web_app.Shared.Models.Product) on controller web_app.Controllers.ProductAPIController (web-app).
+2021-01-29 11:44:14.041 -08:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-01-29 11:44:14.047 -08:00 [INF] Executed action web_app.Controllers.ProductAPIController.AddProduct (web-app) in 59.6024ms
+2021-01-29 11:44:14.050 -08:00 [INF] Executed endpoint 'web_app.Controllers.ProductAPIController.AddProduct (web-app)'
+2021-01-29 11:44:14.065 -08:00 [INF] Request finished in 128.1914ms 400 application/problem+json; charset=utf-8
+2021-01-29 11:44:29.898 -08:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/product application/json 152
+2021-01-29 11:44:29.964 -08:00 [INF] Executing endpoint 'web_app.Controllers.ProductAPIController.AddProduct (web-app)'
+2021-01-29 11:44:30.010 -08:00 [INF] Route matched with {action = "AddProduct", controller = "ProductAPI", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddProduct(web_app.Shared.Models.Product) on controller web_app.Controllers.ProductAPIController (web-app).
+2021-01-29 11:44:40.262 -08:00 [INF] Entity Framework Core 3.1.11 initialized 'ECommDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-29 11:46:19.976 -08:00 [INF] User profile is available. Using 'C:\Users\ISInc\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-29 11:46:20.901 -08:00 [INF] Now listening on: https://localhost:5001
+2021-01-29 11:46:20.913 -08:00 [INF] Now listening on: http://localhost:5000
+2021-01-29 11:46:20.916 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-29 11:46:20.921 -08:00 [INF] Hosting environment: Development
+2021-01-29 11:46:20.928 -08:00 [INF] Content root path: C:\web-app
+2021-01-29 11:46:24.606 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2021-01-29 11:46:24.961 -08:00 [INF] Executing endpoint 'web_app.Controllers.HomeController.Index (web-app)'
+2021-01-29 11:46:25.232 -08:00 [INF] Route matched with {action = "Index", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32) on controller web_app.Controllers.HomeController (web-app).
+2021-01-29 11:46:26.996 -08:00 [INF] Entity Framework Core 3.1.11 initialized 'ECommDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-29 11:46:29.650 -08:00 [INF] Executed DbCommand (191ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[IsDiscontinued], [p].[Package], [p].[UnitPrice], [p].[ProductName], [p].[SupplierId]
+FROM [Products] AS [p]
+2021-01-29 11:46:30.066 -08:00 [INF] Executing ViewResult, running view Index.
+2021-01-29 11:46:31.258 -08:00 [INF] Executed DbCommand (157ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[FirstName], [t].[LastName], [t].[TotalAmount]
+FROM (
+    select top 1 c.Id, FirstName, LastName, sum(o.TotalAmount) as TotalAmount
+                                    from Customers as c 
+                                    join orders as o on o.CustomerId=c.Id
+                                    group by c.Id, FirstName, LastName
+                                    order by TotalAmount desc
+) AS [t]
+2021-01-29 11:46:31.628 -08:00 [INF] Executed ViewResult - view Index executed in 1615.1165ms.
+2021-01-29 11:46:31.737 -08:00 [INF] Executed action web_app.Controllers.HomeController.Index (web-app) in 6478.6684ms
+2021-01-29 11:46:32.090 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.js  
+2021-01-29 11:46:32.378 -08:00 [INF] The file /lib/jquery/dist/jquery.js was not modified
+2021-01-29 11:46:32.385 -08:00 [INF] Request finished in 294.1365ms 304 application/javascript
+2021-01-29 11:46:32.399 -08:00 [INF] Executed endpoint 'web_app.Controllers.HomeController.Index (web-app)'
+2021-01-29 11:46:32.474 -08:00 [INF] Session started; Key:5f399fd2-7f31-7a46-2084-2eef3e9e9797, Id:8216e815-1615-c12c-5ee5-0eee3867a22f
+2021-01-29 11:46:32.490 -08:00 [INF] Request finished in 7892.7649ms 200 text/html; charset=utf-8
+2021-01-29 11:46:58.288 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2021-01-29 11:46:58.294 -08:00 [INF] Executing endpoint 'web_app.Controllers.HomeController.Index (web-app)'
+2021-01-29 11:46:58.305 -08:00 [INF] Route matched with {action = "Index", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32) on controller web_app.Controllers.HomeController (web-app).
+2021-01-29 11:46:58.356 -08:00 [INF] Entity Framework Core 3.1.11 initialized 'ECommDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-29 11:46:58.382 -08:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[IsDiscontinued], [p].[Package], [p].[UnitPrice], [p].[ProductName], [p].[SupplierId]
+FROM [Products] AS [p]
+2021-01-29 11:46:58.399 -08:00 [INF] Executing ViewResult, running view Index.
+2021-01-29 11:46:58.422 -08:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[FirstName], [t].[LastName], [t].[TotalAmount]
+FROM (
+    select top 1 c.Id, FirstName, LastName, sum(o.TotalAmount) as TotalAmount
+                                    from Customers as c 
+                                    join orders as o on o.CustomerId=c.Id
+                                    group by c.Id, FirstName, LastName
+                                    order by TotalAmount desc
+) AS [t]
+2021-01-29 11:46:58.480 -08:00 [INF] Executed ViewResult - view Index executed in 80.9772ms.
+2021-01-29 11:46:58.488 -08:00 [INF] Executed action web_app.Controllers.HomeController.Index (web-app) in 179.5758ms
+2021-01-29 11:46:58.502 -08:00 [INF] Executed endpoint 'web_app.Controllers.HomeController.Index (web-app)'
+2021-01-29 11:46:58.553 -08:00 [INF] Request finished in 268.4287ms 200 text/html; charset=utf-8
+2021-01-29 11:46:58.876 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+2021-01-29 11:46:58.962 -08:00 [INF] Request finished in 85.9404ms 302 
+2021-01-29 11:46:58.967 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ClientError?id=404  
+2021-01-29 11:46:58.975 -08:00 [INF] Executing endpoint 'web_app.Controllers.HomeController.ClientError (web-app)'
+2021-01-29 11:46:58.981 -08:00 [INF] Route matched with {action = "ClientError", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ClientError(Int32) on controller web_app.Controllers.HomeController (web-app).
+2021-01-29 11:46:59.004 -08:00 [INF] Executing ViewResult, running view ClientError.
+2021-01-29 11:46:59.027 -08:00 [INF] Executed ViewResult - view ClientError executed in 27.4503ms.
+2021-01-29 11:46:59.030 -08:00 [INF] Executed action web_app.Controllers.HomeController.ClientError (web-app) in 40.3063ms
+2021-01-29 11:46:59.032 -08:00 [INF] Executed endpoint 'web_app.Controllers.HomeController.ClientError (web-app)'
+2021-01-29 11:46:59.035 -08:00 [INF] Request finished in 68.3023ms 200 text/html; charset=utf-8
+2021-01-29 11:47:01.854 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2021-01-29 11:47:01.896 -08:00 [INF] Executing endpoint 'web_app.Controllers.HomeController.Index (web-app)'
+2021-01-29 11:47:01.900 -08:00 [INF] Route matched with {action = "Index", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32) on controller web_app.Controllers.HomeController (web-app).
+2021-01-29 11:47:01.933 -08:00 [INF] Entity Framework Core 3.1.11 initialized 'ECommDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-29 11:47:01.942 -08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[IsDiscontinued], [p].[Package], [p].[UnitPrice], [p].[ProductName], [p].[SupplierId]
+FROM [Products] AS [p]
+2021-01-29 11:47:01.967 -08:00 [INF] Executing ViewResult, running view Index.
+2021-01-29 11:47:01.976 -08:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[FirstName], [t].[LastName], [t].[TotalAmount]
+FROM (
+    select top 1 c.Id, FirstName, LastName, sum(o.TotalAmount) as TotalAmount
+                                    from Customers as c 
+                                    join orders as o on o.CustomerId=c.Id
+                                    group by c.Id, FirstName, LastName
+                                    order by TotalAmount desc
+) AS [t]
+2021-01-29 11:47:02.044 -08:00 [INF] Executed ViewResult - view Index executed in 77.4429ms.
+2021-01-29 11:47:02.111 -08:00 [INF] Executed action web_app.Controllers.HomeController.Index (web-app) in 197.5085ms
+2021-01-29 11:47:02.187 -08:00 [INF] Executed endpoint 'web_app.Controllers.HomeController.Index (web-app)'
+2021-01-29 11:47:02.192 -08:00 [INF] Request finished in 337.5664ms 200 text/html; charset=utf-8
+2021-01-29 11:47:02.218 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+2021-01-29 11:47:02.228 -08:00 [INF] Request finished in 10.8067ms 302 
+2021-01-29 11:47:02.231 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ClientError?id=404  
+2021-01-29 11:47:02.235 -08:00 [INF] Executing endpoint 'web_app.Controllers.HomeController.ClientError (web-app)'
+2021-01-29 11:47:02.255 -08:00 [INF] Route matched with {action = "ClientError", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ClientError(Int32) on controller web_app.Controllers.HomeController (web-app).
+2021-01-29 11:47:02.280 -08:00 [INF] Executing ViewResult, running view ClientError.
+2021-01-29 11:47:02.282 -08:00 [INF] Executed ViewResult - view ClientError executed in 2.7732ms.
+2021-01-29 11:47:02.285 -08:00 [INF] Executed action web_app.Controllers.HomeController.ClientError (web-app) in 6.6879ms
+2021-01-29 11:47:02.297 -08:00 [INF] Executed endpoint 'web_app.Controllers.HomeController.ClientError (web-app)'
+2021-01-29 11:47:02.299 -08:00 [INF] Request finished in 67.6034ms 200 text/html; charset=utf-8
+2021-01-29 11:47:17.242 -08:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/product application/json 152
+2021-01-29 11:47:17.246 -08:00 [INF] Executing endpoint 'web_app.Controllers.ProductAPIController.AddProduct (web-app)'
+2021-01-29 11:47:17.259 -08:00 [INF] Route matched with {action = "AddProduct", controller = "ProductAPI", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddProduct(web_app.Shared.Models.Product) on controller web_app.Controllers.ProductAPIController (web-app).
+2021-01-29 11:47:21.220 -08:00 [INF] Entity Framework Core 3.1.11 initialized 'ECommDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-29 11:47:54.328 -08:00 [INF] User profile is available. Using 'C:\Users\ISInc\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-29 11:47:55.207 -08:00 [INF] Now listening on: https://localhost:5001
+2021-01-29 11:47:55.214 -08:00 [INF] Now listening on: http://localhost:5000
+2021-01-29 11:47:55.218 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-29 11:47:55.224 -08:00 [INF] Hosting environment: Development
+2021-01-29 11:47:55.225 -08:00 [INF] Content root path: C:\web-app
+2021-01-29 11:47:59.874 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2021-01-29 11:48:00.041 -08:00 [INF] Executing endpoint 'web_app.Controllers.HomeController.Index (web-app)'
+2021-01-29 11:48:00.576 -08:00 [INF] Route matched with {action = "Index", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32) on controller web_app.Controllers.HomeController (web-app).
+2021-01-29 11:48:02.976 -08:00 [INF] Entity Framework Core 3.1.11 initialized 'ECommDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-29 11:48:05.712 -08:00 [INF] Executed DbCommand (368ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[IsDiscontinued], [p].[Package], [p].[UnitPrice], [p].[ProductName], [p].[SupplierId]
+FROM [Products] AS [p]
+2021-01-29 11:48:06.204 -08:00 [INF] Executing ViewResult, running view Index.
+2021-01-29 11:48:07.089 -08:00 [INF] Executed DbCommand (105ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[FirstName], [t].[LastName], [t].[TotalAmount]
+FROM (
+    select top 1 c.Id, FirstName, LastName, sum(o.TotalAmount) as TotalAmount
+                                    from Customers as c 
+                                    join orders as o on o.CustomerId=c.Id
+                                    group by c.Id, FirstName, LastName
+                                    order by TotalAmount desc
+) AS [t]
+2021-01-29 11:48:07.407 -08:00 [INF] Executed ViewResult - view Index executed in 1229.9172ms.
+2021-01-29 11:48:07.683 -08:00 [INF] Executed action web_app.Controllers.HomeController.Index (web-app) in 7035.6798ms
+2021-01-29 11:48:08.086 -08:00 [INF] Executed endpoint 'web_app.Controllers.HomeController.Index (web-app)'
+2021-01-29 11:48:08.201 -08:00 [INF] Session started; Key:3176f41a-45df-4aee-1580-c17d22eb399a, Id:31d66f91-e782-f225-cb75-5e7db27ec32e
+2021-01-29 11:48:08.292 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+2021-01-29 11:48:08.293 -08:00 [INF] Request finished in 8425.5351ms 200 text/html; charset=utf-8
+2021-01-29 11:48:08.317 -08:00 [INF] Request finished in 28.2493ms 302 
+2021-01-29 11:48:08.333 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ClientError?id=404  
+2021-01-29 11:48:08.341 -08:00 [INF] Executing endpoint 'web_app.Controllers.HomeController.ClientError (web-app)'
+2021-01-29 11:48:08.352 -08:00 [INF] Route matched with {action = "ClientError", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ClientError(Int32) on controller web_app.Controllers.HomeController (web-app).
+2021-01-29 11:48:08.373 -08:00 [INF] Executing ViewResult, running view ClientError.
+2021-01-29 11:48:08.400 -08:00 [INF] Executed ViewResult - view ClientError executed in 30.1133ms.
+2021-01-29 11:48:08.402 -08:00 [INF] Executed action web_app.Controllers.HomeController.ClientError (web-app) in 46.0195ms
+2021-01-29 11:48:08.404 -08:00 [INF] Executed endpoint 'web_app.Controllers.HomeController.ClientError (web-app)'
+2021-01-29 11:48:08.406 -08:00 [INF] Request finished in 72.9665ms 200 text/html; charset=utf-8
+2021-01-29 11:48:25.332 -08:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/product application/json 152
+2021-01-29 11:48:25.338 -08:00 [INF] Executing endpoint 'web_app.Controllers.ProductAPIController.AddProduct (web-app)'
+2021-01-29 11:48:25.348 -08:00 [INF] Route matched with {action = "AddProduct", controller = "ProductAPI", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddProduct(web_app.Shared.Models.Product) on controller web_app.Controllers.ProductAPIController (web-app).
+2021-01-29 11:48:29.772 -08:00 [INF] Entity Framework Core 3.1.11 initialized 'ECommDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-29 11:48:29.847 -08:00 [INF] Executed DbCommand (51ms) [Parameters=[p0='?' (Size = 4000), p1='?' (DbType = Decimal), p2='?' (DbType = Int32), p3='?' (Size = 4000), p4='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+exec dbo.AddProduct 
+                                @name=@p0,
+                                @price=@p1, @supplierId=@p2,
+                                @package=@p3, @isDiscontinued=@p4
+2021-01-29 11:48:39.205 -08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-01-29 11:48:39.223 -08:00 [INF] Executed action web_app.Controllers.ProductAPIController.AddProduct (web-app) in 13857.7007ms
+2021-01-29 11:48:39.228 -08:00 [INF] Executed endpoint 'web_app.Controllers.ProductAPIController.AddProduct (web-app)'
+2021-01-29 11:48:39.230 -08:00 [INF] Request finished in 13898.541ms 201 application/json; charset=utf-8
+2021-01-29 13:02:20.995 -08:00 [INF] User profile is available. Using 'C:\Users\ISInc\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-29 13:02:22.223 -08:00 [INF] Now listening on: https://localhost:5001
+2021-01-29 13:02:22.244 -08:00 [INF] Now listening on: http://localhost:5000
+2021-01-29 13:02:22.275 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-29 13:02:22.365 -08:00 [INF] Hosting environment: Development
+2021-01-29 13:02:22.369 -08:00 [INF] Content root path: C:\web-app
+2021-01-29 13:02:26.165 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2021-01-29 13:02:26.623 -08:00 [INF] Executing endpoint 'web_app.Controllers.HomeController.Index (web-app)'
+2021-01-29 13:02:27.315 -08:00 [INF] Route matched with {action = "Index", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32) on controller web_app.Controllers.HomeController (web-app).
+2021-01-29 13:02:31.019 -08:00 [INF] Entity Framework Core 3.1.11 initialized 'ECommDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-29 13:02:32.777 -08:00 [INF] Executed DbCommand (97ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[IsDiscontinued], [p].[Package], [p].[UnitPrice], [p].[ProductName], [p].[SupplierId]
+FROM [Products] AS [p]
+2021-01-29 13:02:33.605 -08:00 [INF] Executing ViewResult, running view Index.
+2021-01-29 13:02:34.635 -08:00 [INF] Executed DbCommand (228ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[FirstName], [t].[LastName], [t].[TotalAmount]
+FROM (
+    select top 1 c.Id, FirstName, LastName, sum(o.TotalAmount) as TotalAmount
+                                    from Customers as c 
+                                    join orders as o on o.CustomerId=c.Id
+                                    group by c.Id, FirstName, LastName
+                                    order by TotalAmount desc
+) AS [t]
+2021-01-29 13:02:35.006 -08:00 [INF] Executed ViewResult - view Index executed in 1487.7243ms.
+2021-01-29 13:02:35.150 -08:00 [INF] Executed action web_app.Controllers.HomeController.Index (web-app) in 7788.637ms
+2021-01-29 13:02:35.493 -08:00 [INF] Executed endpoint 'web_app.Controllers.HomeController.Index (web-app)'
+2021-01-29 13:02:35.671 -08:00 [INF] Session started; Key:9a5df5b7-5c24-5e25-edf9-f0f20d16a8ee, Id:f4e8ecdc-b753-e539-0018-f32b9e7bf9b0
+2021-01-29 13:02:36.073 -08:00 [INF] Request finished in 9930.6092ms 200 text/html; charset=utf-8
+2021-01-29 13:02:36.084 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+2021-01-29 13:02:36.107 -08:00 [INF] Request finished in 23.5308ms 302 
+2021-01-29 13:02:36.119 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ClientError?id=404  
+2021-01-29 13:02:36.134 -08:00 [INF] Executing endpoint 'web_app.Controllers.HomeController.ClientError (web-app)'
+2021-01-29 13:02:36.154 -08:00 [INF] Route matched with {action = "ClientError", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ClientError(Int32) on controller web_app.Controllers.HomeController (web-app).
+2021-01-29 13:02:36.190 -08:00 [INF] Executing ViewResult, running view ClientError.
+2021-01-29 13:02:36.214 -08:00 [INF] Executed ViewResult - view ClientError executed in 27.8098ms.
+2021-01-29 13:02:36.217 -08:00 [INF] Executed action web_app.Controllers.HomeController.ClientError (web-app) in 49.2636ms
+2021-01-29 13:02:36.218 -08:00 [INF] Executed endpoint 'web_app.Controllers.HomeController.ClientError (web-app)'
+2021-01-29 13:02:36.220 -08:00 [INF] Request finished in 101.0048ms 200 text/html; charset=utf-8
+2021-01-29 13:03:19.296 -08:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/product application/json 152
+2021-01-29 13:03:19.306 -08:00 [INF] Executing endpoint 'web_app.Controllers.ProductAPIController.AddProduct (web-app)'
+2021-01-29 13:03:19.310 -08:00 [INF] Route matched with {action = "AddProduct", controller = "ProductAPI", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddProduct(web_app.Shared.Models.Product) on controller web_app.Controllers.ProductAPIController (web-app).
+2021-01-29 13:03:35.079 -08:00 [INF] Entity Framework Core 3.1.11 initialized 'ECommDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-29 13:03:35.381 -08:00 [INF] Executed DbCommand (236ms) [Parameters=[p0='?' (Size = 4000), p1='?' (DbType = Decimal), p2='?' (DbType = Int32), p3='?' (Size = 4000), p4='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+exec dbo.AddProduct 
+                                @name=@p0,
+                                @price=@p1, @supplierId=@p2,
+                                @package=@p3, @isDiscontinued=@p4
+2021-01-29 13:03:48.338 -08:00 [INF] Executing ObjectResult, writing value of type 'web_app.Shared.Models.Product'.
+2021-01-29 13:03:48.365 -08:00 [INF] Executed action web_app.Controllers.ProductAPIController.AddProduct (web-app) in 29044.0465ms
+2021-01-29 13:03:48.368 -08:00 [INF] Executed endpoint 'web_app.Controllers.ProductAPIController.AddProduct (web-app)'
+2021-01-29 13:03:48.370 -08:00 [INF] Request finished in 29075.2488ms 201 application/json; charset=utf-8
+2021-01-29 13:05:01.691 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/product/89 application/json 152
+2021-01-29 13:05:01.696 -08:00 [INF] Executing endpoint 'web_app.Controllers.ProductAPIController.GetProduct (web-app)'
+2021-01-29 13:05:01.725 -08:00 [INF] Route matched with {action = "GetProduct", controller = "ProductAPI", page = ""}. Executing controller action with signature web_app.Shared.Models.Product GetProduct(Int32) on controller web_app.Controllers.ProductAPIController (web-app).
+2021-01-29 13:05:01.746 -08:00 [INF] Entity Framework Core 3.1.11 initialized 'ECommDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-29 13:05:01.824 -08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[IsDiscontinued], [p].[Package], [p].[UnitPrice], [p].[ProductName], [p].[SupplierId]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2021-01-29 13:05:01.834 -08:00 [INF] Executing ObjectResult, writing value of type 'web_app.Shared.Models.Product'.
+2021-01-29 13:05:01.848 -08:00 [INF] Executed action web_app.Controllers.ProductAPIController.GetProduct (web-app) in 118.3233ms
+2021-01-29 13:05:01.850 -08:00 [INF] Executed endpoint 'web_app.Controllers.ProductAPIController.GetProduct (web-app)'
+2021-01-29 13:05:01.853 -08:00 [INF] Request finished in 162.147ms 200 application/json; charset=utf-8
+2021-01-29 13:16:58.000 -08:00 [INF] User profile is available. Using 'C:\Users\ISInc\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-29 13:16:59.241 -08:00 [INF] Now listening on: https://localhost:5001
+2021-01-29 13:16:59.247 -08:00 [INF] Now listening on: http://localhost:5000
+2021-01-29 13:16:59.249 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-29 13:16:59.251 -08:00 [INF] Hosting environment: Development
+2021-01-29 13:16:59.252 -08:00 [INF] Content root path: C:\web-app
+2021-01-29 13:17:03.068 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2021-01-29 13:17:03.575 -08:00 [INF] Executing endpoint 'web_app.Controllers.HomeController.Index (web-app)'
+2021-01-29 13:17:03.762 -08:00 [INF] Route matched with {action = "Index", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32) on controller web_app.Controllers.HomeController (web-app).
+2021-01-29 13:17:06.605 -08:00 [INF] Entity Framework Core 3.1.11 initialized 'ECommDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-29 13:17:09.037 -08:00 [INF] Executed DbCommand (55ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[IsDiscontinued], [p].[Package], [p].[UnitPrice], [p].[ProductName], [p].[SupplierId]
+FROM [Products] AS [p]
+2021-01-29 13:17:09.652 -08:00 [INF] Executing ViewResult, running view Index.
+2021-01-29 13:17:10.882 -08:00 [INF] Executed DbCommand (124ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[FirstName], [t].[LastName], [t].[TotalAmount]
+FROM (
+    select top 1 c.Id, FirstName, LastName, sum(o.TotalAmount) as TotalAmount
+                                    from Customers as c 
+                                    join orders as o on o.CustomerId=c.Id
+                                    group by c.Id, FirstName, LastName
+                                    order by TotalAmount desc
+) AS [t]
+2021-01-29 13:17:11.326 -08:00 [INF] Executed ViewResult - view Index executed in 1668.3231ms.
+2021-01-29 13:17:11.854 -08:00 [INF] Executed action web_app.Controllers.HomeController.Index (web-app) in 8087.8253ms
+2021-01-29 13:17:11.858 -08:00 [INF] Executed endpoint 'web_app.Controllers.HomeController.Index (web-app)'
+2021-01-29 13:17:11.891 -08:00 [INF] Session started; Key:dafb4981-45c3-d411-51be-fc16b1b4b960, Id:1f5131e8-e0e9-832c-ff0c-0224b0db8f25
+2021-01-29 13:17:11.986 -08:00 [INF] Request finished in 8922.0345ms 200 text/html; charset=utf-8
+2021-01-29 13:17:12.254 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+2021-01-29 13:17:12.320 -08:00 [INF] Request finished in 66.2123ms 302 
+2021-01-29 13:17:12.330 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ClientError?id=404  
+2021-01-29 13:17:12.335 -08:00 [INF] Executing endpoint 'web_app.Controllers.HomeController.ClientError (web-app)'
+2021-01-29 13:17:12.344 -08:00 [INF] Route matched with {action = "ClientError", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ClientError(Int32) on controller web_app.Controllers.HomeController (web-app).
+2021-01-29 13:17:12.371 -08:00 [INF] Executing ViewResult, running view ClientError.
+2021-01-29 13:17:12.401 -08:00 [INF] Executed ViewResult - view ClientError executed in 32.836ms.
+2021-01-29 13:17:12.404 -08:00 [INF] Executed action web_app.Controllers.HomeController.ClientError (web-app) in 47.1922ms
+2021-01-29 13:17:12.407 -08:00 [INF] Executed endpoint 'web_app.Controllers.HomeController.ClientError (web-app)'
+2021-01-29 13:17:12.409 -08:00 [INF] Request finished in 79.3546ms 200 text/html; charset=utf-8
+2021-01-29 13:17:16.686 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2021-01-29 13:17:16.777 -08:00 [INF] Request finished in 91.7161ms 200 text/html;charset=utf-8
+2021-01-29 13:17:17.117 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2021-01-29 13:17:17.339 -08:00 [INF] Request finished in 221.8446ms 200 application/json;charset=utf-8
+2021-01-29 13:18:35.874 -08:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/product3  0
+2021-01-29 13:18:35.880 -08:00 [INF] Executing endpoint 'web_app.Controllers.ProductAPIController.AddProduct3 (web-app)'
+2021-01-29 13:18:35.932 -08:00 [INF] Route matched with {action = "AddProduct3", controller = "ProductAPI", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddProduct3() on controller web_app.Controllers.ProductAPIController (web-app).
+2021-01-29 13:19:06.311 -08:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2021-01-29 13:19:06.314 -08:00 [INF] Executed action web_app.Controllers.ProductAPIController.AddProduct3 (web-app) in 30311.2745ms
+2021-01-29 13:19:06.316 -08:00 [INF] Executed endpoint 'web_app.Controllers.ProductAPIController.AddProduct3 (web-app)'
+2021-01-29 13:19:06.328 -08:00 [INF] Request finished in 30454.2698ms 200 
+2021-01-29 13:19:39.511 -08:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/product application/json 97
+2021-01-29 13:19:39.524 -08:00 [INF] Executing endpoint 'web_app.Controllers.ProductAPIController.AddProduct (web-app)'
+2021-01-29 13:19:39.550 -08:00 [INF] Route matched with {action = "AddProduct", controller = "ProductAPI", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddProduct(web_app.Shared.Models.Product) on controller web_app.Controllers.ProductAPIController (web-app).
+2021-01-29 13:19:54.075 -08:00 [INF] Entity Framework Core 3.1.11 initialized 'ECommDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None

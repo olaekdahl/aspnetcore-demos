@@ -1,0 +1,5 @@
+﻿@model TopCustomer 
+
+<div class="alert alert-info">
+    Top Customer: <b>@Model.GetFullName()</b> | Order Total: @Html.DisplayFor(m => m.TotalAmount)
+</div>

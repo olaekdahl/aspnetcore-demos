@@ -1,0 +1,91 @@
+﻿@model IEnumerable<web_app.Shared.Models.Product>
+@{
+    int pageNum = ViewBag.PageNum + 1;
+
+    var returninguser = ViewBag?.ReturningUser;
+    var lastVisit = ViewBag?.LastVisit;
+}
+
+<div class="alert alert-warning">
+    Hello <b>@User.Identity.Name</b>
+    
+
+    @{ 
+        string groups = "";
+        if (User.IsInRole("admin"))
+        {
+            var windowsIdentity = (System.Security.Principal.WindowsIdentity)User.Identity;
+
+
+            foreach (var group in windowsIdentity.Groups)
+            {
+                groups += group.Translate(typeof(System.Security.Principal.NTAccount)).ToString() + "<br />";
+            }
+        }
+    }
+    @Html.Raw(groups)
+</div>
+
+<div class="alert alert-warning">
+    @returninguser | @lastVisit
+</div>
+
+<p>
+    <a asp-action="Create" asp-controller="Home">Create New</a>
+</p>
+@*@await Html.PartialAsync("_TopCustomer") <br />*@
+@*<partial name="_TopCustomer" />*@
+@await Component.InvokeAsync("TopCustomerComponent")
+Page number: @ViewBag.PageNum
+<br />
+<div class="row">
+    <div class="col-md-2">
+        <form action="/home/index" method="post">
+            <div class="form-group">
+                @*<label class="control-label">Goto Page</label>*@
+                <input type="number" name="pid" class="form-control" />
+                <input type="submit" class="btn btn-primary" value="Goto Page" />
+            </div>
+        </form>
+    </div>
+</div>
+            <a href="@Url.Action("index", "home", new { pid=pageNum }) " class="btn btn-primary btn-sm">Next Page</a>
+            @*@Html.ActionLink("Next Page", "index", "home", new { pid=pageNum }, new { @class="btn btn-primary" })*@
+
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Id)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.ProductName)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Price)
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                <a href="/home/details/@item.Id">@Html.DisplayFor(modelItem => item.Id)</a>
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ProductName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Price)
+                            </td>
+                            <td>
+                                @Html.ActionLink("Edit", "Edit", new { pid = item.Id }) |
+                                @Html.ActionLink("Details", "Details", new { pid = item.Id }) |
+                                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>

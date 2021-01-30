@@ -1,0 +1,31 @@
+﻿@model web_app.Shared.Models.ProductViewModel
+<h1>Add New Product</h1>
+<div class="row">
+    <div class="col-md-4">
+
+        <form asp-controller="Home" asp-action="Create" method="post">
+            <div class="form-group">
+                <label>Supplier</label>
+                <select asp-items="Model.SupplierList" asp-for="Product.SupplierId" class="form-control">
+                </select>
+                <span asp-validation-for="Product.SupplierId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Name</label>
+                <input type="text" asp-for="Product.ProductName" class="form-control" />
+                <span asp-validation-for="Product.ProductName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Price</label>
+                <input type="number" asp-for="Product.Price" class="form-control" />
+                <span asp-validation-for="Product.Price" class="text-danger"></span>
+            </div>
+            <input type="submit" class="btn btn-primary" value="Add Product" />
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+

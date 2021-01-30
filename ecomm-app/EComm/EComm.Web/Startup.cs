@@ -92,7 +92,12 @@ namespace EComm.Web
             endpoints.MapControllerRoute(
                 name: "add",
                 pattern: "{controller=Shopping}/{action=Test}/{num1:int?}/{num2:alpha?}");
-               
+
+            endpoints.MapControllerRoute(
+                name: "add2",
+                pattern: "Test/{num1:int?}/{num2:alpha?}",
+                defaults: new { controller = "Shopping", action = "Test" });
+
             });
         }
     }

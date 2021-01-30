@@ -1,0 +1,13 @@
+﻿@model web_app.Shared.Models.Product
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>@Model.ProductName</td><td>@Model.Price.ToString("c")</td></tr>
+        </tbody>
+    </table>

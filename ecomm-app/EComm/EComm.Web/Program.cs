@@ -16,21 +16,21 @@ namespace EComm.Web
     {
         public static void Main(string[] args)
         {
-            //Log.Logger = new LoggerConfiguration().Enrich.FromLogContext()
-            //    .WriteTo.Console()
-            //    .WriteTo.File(new RenderedCompactJsonFormatter(), "/logs/log.json")
-            //    .CreateLogger();
-            var Date = DateTime.Now;
-            Log.Logger = new LoggerConfiguration()
-                    .Enrich.FromLogContext()
-                    .WriteTo.Console()
-                    .WriteTo.Logger(l => l.Filter.ByIncludingOnly(e => e.Level == LogEventLevel.Information).WriteTo.File(@$"Logs\Info-{Date}.log"))
-                    .WriteTo.Logger(l => l.Filter.ByIncludingOnly(e => e.Level == LogEventLevel.Debug).WriteTo.File(@$"Logs\Debug-{Date}.log"))
-                    .WriteTo.Logger(l => l.Filter.ByIncludingOnly(e => e.Level == LogEventLevel.Warning).WriteTo.File(@$"Logs\Warning-{Date}.log"))
-                    .WriteTo.Logger(l => l.Filter.ByIncludingOnly(e => e.Level == LogEventLevel.Error).WriteTo.File(@$"Logs\Error-{Date}.log"))
-                    .WriteTo.Logger(l => l.Filter.ByIncludingOnly(e => e.Level == LogEventLevel.Fatal).WriteTo.File(@$"Logs\Fatal-{Date}.log"))
-                    .WriteTo.File(@$"Logs\Verbose-{Date}.log")
-                    .CreateLogger();
+            Log.Logger = new LoggerConfiguration().Enrich.FromLogContext()
+                .WriteTo.Console()
+                .WriteTo.File(new RenderedCompactJsonFormatter(), "/logs/log.json")
+                .CreateLogger();
+            //var date = DateTime.Now.ToString("'yyyy'-'MM'-'dd'T'HH':'mm':'ss'");
+            //Log.Logger = new LoggerConfiguration()
+            //        .Enrich.FromLogContext()
+            //        .WriteTo.Console()
+            //        .WriteTo.Logger(l => l.Filter.ByIncludingOnly(e => e.Level == LogEventLevel.Information).WriteTo.File(@$"Logs\Info-{date}.log"))
+            //        .WriteTo.Logger(l => l.Filter.ByIncludingOnly(e => e.Level == LogEventLevel.Debug).WriteTo.File(@$"Logs\Debug-{date}.log"))
+            //        .WriteTo.Logger(l => l.Filter.ByIncludingOnly(e => e.Level == LogEventLevel.Warning).WriteTo.File(@$"Logs\Warning-{date}.log"))
+            //        .WriteTo.Logger(l => l.Filter.ByIncludingOnly(e => e.Level == LogEventLevel.Error).WriteTo.File(@$"Logs\Error-{date}.log"))
+            //        .WriteTo.Logger(l => l.Filter.ByIncludingOnly(e => e.Level == LogEventLevel.Fatal).WriteTo.File(@$"Logs\Fatal-{date}.log"))
+            //        .WriteTo.File(@$"Logs\Verbose-{date}.log")
+            //        .CreateLogger();
             try
             {
                 CreateHostBuilder(args).Build().Run();

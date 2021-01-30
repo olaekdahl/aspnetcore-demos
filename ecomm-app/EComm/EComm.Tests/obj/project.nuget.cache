@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+jjWemwjAfcU9zb80Sx+bK+Ha18A0Y8Sgi0m4HbWss5cMPxZ0MSqVKAjIBBHoWbXoyUrvCBa2bqFcwhZirsqSw==",
+  "dgSpecHash": "g7Qme51Wz62LsPL5m4Kpt7j8HKiD2iaoWjGoq8+jARTfYnl1pexsD0jh+celvQ7LrcisVBUqLlRx45ORDcdbNQ==",
   "success": true,
   "projectFilePath": "D:\\dev\\core-class\\aspnetcore-demos\\ecomm-app\\EComm\\EComm.Tests\\EComm.Tests.csproj",
   "expectedPackageFiles": [
